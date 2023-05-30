@@ -1,0 +1,49 @@
+.admin-company-profile .comp_logo_img{width:150px;cursor:pointer;height:150px;cursor:pointer}
+.form-group{margin-bottom: 10px;}
+.error{color:red;}
+.required{color:red;}
+.br-0{border-radius:0px !important;}
+.btn-block{width:100%;}
+.admin-company-profile .comp_favicon_img{width:80px;cursor:pointer;height:80px;cursor:pointer}
+.text-right{text-align:right;}
+.text-left{text-align:left;}
+
+.fundraiser-profile .nav-tabs-custom {
+    border-left: 1px solid #ced4da;
+    border-top: 1px solid #ced4da;
+    border-right: 1px solid #ced4da;
+}
+.fundraiser-profile .tab-content{
+	border-left: 1px solid #ced4da;
+    border-right: 1px solid #ced4da;
+    border-bottom: 1px solid #ced4da;
+}
+.fundraiser-profile .profile-image{
+	border-radius: 50%;height: 130px;width: 130px;border: 2px solid #556ee6;
+	cursor: pointer;
+}
+.admin-client-list .profile-image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid #2a3042;
+}
+
+.admin-add-campaign .thmb-image{width: 100%;border: 1px solid #2a3042;cursor: pointer;height: 150px;}
+.admin-add-campaign .gallery-image{
+    width: 91px;border: 1px solid #2a3042;cursor: pointer;height: 60px;margin-bottom: 2px;
+}
+.admin-add-campaign .beneficiary-profile .beneficiary_image{width:auto;border: 1px solid #2a3042;cursor: pointer;height: 100px;}
+.admin-add-campaign .gallery-image-div ul{list-style: none;padding-left: 0px;}
+.admin-add-campaign .gallery-image-div ul li{display: inline-block;margin-right: 2px;}
+.admin-add-campaign .gallery-image-div ul li .delete-image{position: absolute;margin-left: -18px; margin-top: 1px;background: #fff;padding: 2px;color: red;font-size: 16px;cursor: pointer;}
+.admin-add-campaign .video-gallery-div ul{padding-left: 0px;}
+.admin-add-campaign .campaign-document{padding-left: 0px;}
+.admin-add-campaign .campaign-document li{display: inline-block;margin-right: 10px;}
+.admin-add-campaign .campaign-document li img{width: 150px;height:120px;border: 1px solid #2a3042;margin-bottom: 5px;cursor:pointer;}
+.admin-add-campaign .add-more-documents{width: 150px;height:120px;border: 1px solid #2a3042;margin-bottom: 5px;cursor:pointer;}
+.admin-add-campaign .campaign-document .document-remove{position: absolute;margin-left: -19px;margin-top: 1px;background: #fff;padding: 2px;color: red;font-size: 16px;cursor: pointer;}
+.admin-add-campaign .carousel-control-prev-icon, .admin-add-campaign .carousel-control-next-icon{background-color: #2a3042;}
+.admin-add-campaign .carousel-item img{width: 100%;}
+.select2-container--default .select2-selection--single {border-radius: 0px !important;min-height: 33px;}
+/*toastr.success('File show name has been updated successfully.', 'Success');*/

@@ -1,0 +1,54 @@
+.admin-add-car .thmb-image{width: 100%;border: 1px solid #2a3042;cursor: pointer;height: 200px;}
+.admin-add-car .gallery-image{
+    width: 91px; border: 1px solid #2a3042;cursor: pointer;height: 60px;margin-bottom: 2px;
+}
+.admin-add-car .beneficiary-profile .beneficiary_image{width:auto;border: 1px solid #2a3042;cursor: pointer;height: 85px;}
+.admin-add-car .gallery-image-div ul{list-style: none;padding-left: 0px;}
+.admin-add-car .gallery-image-div ul li{display: inline-block;margin-right: 2px;}
+.admin-add-car .gallery-image-div ul li .delete-image{position: absolute;margin-left: -18px; margin-top: 1px;background: #fff;padding: 2px;color: red;font-size: 16px;cursor: pointer;}
+.admin-add-car .video-gallery-div ul{padding-left: 0px;}
+.admin-add-car .carousel-control-prev-icon, .admin-add-car .carousel-control-next-icon{background-color: #2a3042;}
+.admin-add-car .carousel-item img{width: 100%;}
+.admin-add-car .tag-keyword-div ul{padding-left: 0px;list-style: none;}
+.admin-add-car .tag-keyword-div ul li{display: inline-block;background: #ccc;margin-bottom: 5px;margin-right: 5px;padding: 2px 5px;}
+.admin-add-car .tag-keyword-div ul i{color: red;margin-left: 5px;cursor: pointer;}
+.admin-add-car .tag-keyword-div .add-tag-btn{float:right;margin-top:-36px;position:relative;}
+.admin-add-car .tag-suggestion-div{
+    background: #efecec;
+    height: 150px;
+    overflow-y: scroll;
+}
+.admin-add-car .tag-suggestion-div ul{list-style: none;padding-left: 0px;}
+.admin-add-car .tag-suggestion-div ul li{padding-left: 15px;cursor: pointer;padding-top: 3px;padding-bottom: 3px;}
+.admin-add-car .tag-suggestion-div ul li:hover{background: #c7c5c5;}
+
+.admin-add-car .available-location ul{
+    padding-left: 0px;
+    list-style: none;
+}
+.admin-add-car .available-location ul li.location-list{
+    display: inline-block;
+    background: #ccc;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 2px 5px;
+}
+.admin-add-car .available-location .delete-location{
+    color: red;margin-left: 5px;cursor: pointer;
+}
+.admin-add-car .location-suggestion-div{
+    background: #efecec;
+    height: 150px;
+    overflow-y: scroll;
+}
+.admin-add-car .location-suggestion-div ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.admin-add-car .location-suggestion-div ul li{
+    padding-left: 15px;
+    cursor: pointer;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.admin-add-car .location-suggestion-div ul li:hover{background: #c7c5c5;}

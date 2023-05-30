@@ -1,0 +1,56 @@
+.br-0{border-radius:0px;}
+.c-p{cursor:ponter !important;}
+.user-dashboard-page .profile-details .gauto-btn{color:#ec3323;}
+.user-dashboard-page .profile-details .gauto-btn:hover{color:#fff !important;}
+.user-dashboard-page .book-list-item{border-bottom: 1px solid #ccc;}
+.user-dashboard-page .book-list-item .bookin-id{color: #0202f5;font-weight: 600;font-style: italic;border-bottom: 1px solid #ccc;}
+.user-dashboard-page .book-list-item .car-name{font-weight:600;}
+.user-dashboard-page .book-list-item .address{line-height: 17px;}
+.user-dashboard-page .book-list-item .time{color:#000;line-height: 17px;}
+.user-dashboard-page .book-list-item .view-details{float:right;font-style: normal;color: #000;background: #ccc;padding: 3px 11px;font-size: 12px;line-height: 16px;}
+
+.user-edit-profile .profile-image-edit{max-width: 160px;border-radius: 100%;border: 1px solid #ccc;padding: 5px;}
+.user-edit-profile .send-email-otp{
+	margin-top: -50px;
+    position: absolute;
+    right: 15px;
+    border-radius: 0px;
+    color: #fff;
+}
+.user-edit-profile .profile-image-edit-pencil{
+	position: absolute;
+    background: #ccc;
+    color: #ec3323;
+    margin-left: -24px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    padding-top: 2px;
+    border-radius: 100%;
+    cursor: pointer;}
+
+.user-edit-profile .accordion .card h2.collapsed {
+    background-image: url(https://cdn0.iconfinder.com/data/icons/arrows-android-l-lollipop-icon-pack/24/expand2-256.png);
+    background-size: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.user-edit-profile .accordion .card h2 {
+    background: url(https://cdn0.iconfinder.com/data/icons/entypo/91/arrow56-512.png) no-repeat calc(100% - 10px) center;
+    background-size: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: 500;
+    color: #000;
+    border-bottom: 1px solid #ccc
+}
+.home-page .find-form p input, .home-page .find-form .nice-select{border: 2px solid #c1c1c1;}
+
+.booking-day ul li{display: inline-block;border: 1px solid;padding: 2px 5px;}
+.booking-day ul li:last-child{border: none !important;min-height: 33px}
+.booking-day ul li label{margin-bottom:0px;}
+.booking-day ul li .custom-book-day{border-radius: 0px;border: 1px solid #ccc;max-width: 90px;min-height}
+@media only screen and (max-width: 767px) {
+  .booking-day{text-align:center;}
+}

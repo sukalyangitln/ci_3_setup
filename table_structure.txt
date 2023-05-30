@@ -1,0 +1,33 @@
+product_incomming_general_information------
+pigi_id
+pigi_main_cat_id {primary key of `tbl_category`}
+pigi_sub_cat_id {primary key of `tbl_subcategory`}
+pigi_product_name
+pigi_product_barcode
+pigi_created_datetime
+
+product_incomming_stock-------
+pis_FK_asset_id
+pis_FK_main_category_id
+pis_FK_sub_category_id
+pis_qty
+
+pis_product_original_cost
+pis_serial_number
+pis_purchase_date
+pis_is_retired
+pis_retired_date
+pis_depriciation_rate
+pis_vendor_name
+pis_vendor_phone
+pis_vendor_address
+pis_invoice_type
+pis_invoice_file_name
+pis_invoice_uploaded_path
+pis_is_generate_qr
+pis_generated_qr_filename
+pis_generated_qr_path
+pis_closing_asset_value
+pis_remarks
+
+pis_added_datetime
