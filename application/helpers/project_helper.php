@@ -1,12 +1,18 @@
 <?php
 function get_asset_current_stock($pis_FK_asset_id){
 	$CI =& get_instance();
+	// INCOMMING ASSET QUERY
 	$CI->db->select('SUM(pis_qty) as Total_Incomming_Quantity');
 	$CI->db->from('product_incomming_stock');
 	$CI->db->where('pis_FK_asset_id',$pis_FK_asset_id);
 	$Incomming = $CI->db->get()->row();
 	$Incomming_asset_qty = $Incomming->Total_Incomming_Quantity;
-	$Outgoing_asset_qty = 0; //This should be taken as per outgoing asset
+	//OUTGOING ASSET QUERY
+	$CI->db->select('SUM(oa_provided_qty) as Total_Outgoing_Quantity');
+	$CI->db->from('outgoing_assets');
+	$CI->db->where('oa_FK_asset_id',$pis_FK_asset_id);
+	$Outgoing = $CI->db->get()->row();
+	$Outgoing_asset_qty = $Outgoing->Total_Outgoing_Quantity;
 	$Current_stock = ($Incomming_asset_qty-$Outgoing_asset_qty);
 	return $Current_stock;
 }
@@ -35,41 +41,6 @@ function get_category_name($cid){
 		return $data->cname;
 	else:
 		return null;
-	endif;
-}
-function get_country_list(){
-	$CI =& get_instance();
-	$CI->db->select('*');
-	$CI->db->from('countries');
-	$CI->db->order_by('country_name','ASC');
-	return $CI->db->get()->result();
-}
-function get_state_list($country_id){
-	$CI =& get_instance();
-	$CI->db->select('*');
-	$CI->db->from('states');
-	$CI->db->where('state_country_id',$country_id);
-	$CI->db->order_by('state_name','ASC');
-	return $CI->db->get()->result();
-}
-function get_city_list($state_id){
-	$CI =& get_instance();
-	$CI->db->select('*');
-	$CI->db->from('cities');
-	$CI->db->where('city_state_id',$state_id);
-	$CI->db->order_by('city_name','ASC');
-	return $CI->db->get()->result();
-}
-function get_country_name($country_id){
-	$CI =& get_instance();
-	$CI->db->select('*');
-	$CI->db->from('countries');
-	$CI->db->where('country_id',$country_id);
-	$row = $CI->db->get()->row();
-	if($row==TRUE):
-		return $row->country_name;
-	else:
-		return '';
 	endif;
 }
 function gen_barcode(){
@@ -123,10 +94,37 @@ function get_setting(){
 	$CI->db->where('setting_id',1);
 	return $CI->db->get()->row();
 }
-function get_all_salesheads(){
+function get_nos_of_stores(){
 	$CI =& get_instance();
-	$CI->db->select('*');
-	$CI->db->from('tbl_sales_head');
-	return $CI->db->get()->result();
-	
+	return $CI->Admin->rowFieldCountWhere(['admin_type' => 'STORE']);
+}
+function get_nos_of_products(){
+	$CI =& get_instance();
+	$CI->load->model('Product_incomming_general_information');
+	return $CI->Product_incomming_general_information->rowCount();
+}
+function get_nos_of_approved_requests(){
+	$CI =& get_instance();
+	$CI->load->model('Outgoing_assets');
+	return $CI->Outgoing_assets->rowCount();
+}
+function get_nos_of_pending_requests(){
+	$CI =& get_instance();
+	$CI->load->model('Asset_requests');
+	return $CI->Asset_requests->rowFieldCountWhere(['ar_status' => 'P']);
+}
+function get_nos_of_rejected_request(){
+	$CI =& get_instance();
+	$CI->load->model('Asset_requests');
+	return $CI->Asset_requests->rowFieldCountWhere(['ar_status' => 'R']);
+}
+function get_nos_of_categories(){
+	$CI =& get_instance();
+	$CI->load->model('Tbl_category');
+	return $CI->Tbl_category->rowCount();
+}
+function get_nos_of_subcategories(){
+	$CI =& get_instance();
+	$CI->load->model('Tbl_subcategory');
+	return $CI->Tbl_subcategory->rowCount();
 }

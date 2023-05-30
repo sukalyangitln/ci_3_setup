@@ -78,9 +78,11 @@ class Admin_Asset_Request_Action_Controller extends AD_Controller {
 			$current_asset_stock = get_asset_current_stock($Req_data->ar_FK_asset_id);
 			if($Req_data->ar_requested_qty > $current_asset_stock):
 				$res = [
-					'encr_ar_id' => encr($ar_id), //Asset_request Id
-					'status' => 2, //Product out of stock
-					'msg' => '<div class="alert alert-warning" role="alert"><strong>Note: The current quantity is '.$current_asset_stock.'. The requested quantity is currently not available in stock. Please add some more quantity to proceed.</strong></div>',
+					'encr_ar_id' 		=> encr($ar_id), //Asset_request Id
+					'status'			 => 2, //Product out of stock
+					'current_asset_stock' => $current_asset_stock,
+					'ar_requested_qty' => $Req_data->ar_requested_qty,
+					'msg' => '<div class="alert alert-warning" role="alert"><strong>Please be advised that the current stock quantity stands at '.$current_asset_stock.' units. However, we regret to inform you that the requested quantity is currently unavailable in our inventory. We kindly request you to consider adding additional units to fulfill your requirements and proceed accordingly.</strong></div>',
 				];
 			else:
 				$res = [
@@ -142,7 +144,19 @@ class Admin_Asset_Request_Action_Controller extends AD_Controller {
 			// back();
 		endif;
 	}
-	public function testoo(){
-		echo 'Here';
+	public function delete_rejected_request(){
+		$ar_id = decr($this->input->get('dlt_encr_ar_id'));
+		$arData = $this->Asset_requests->check_req_full_possible_joining($ar_id);
+		if($arData):
+
+			//-------start ASSET MOVEMENT TIMELINE INSERT
+			$amt_log_paragraph = 'A store named "'.$arData->Store_Name.'" was submitted a request for "'.$arData->ar_requested_qty.'" units of product named "'.$arData->pigi_product_name.'", falling under the category of "'.$arData->cname.'" with a specific subcategory of "'.$arData->scname.'". The reference ID associated with this request is "'.$arData->ar_serial_number.'". However, this request has been rejected and deleted. Rendering further inquiries via the reference ID unattainable.';
+			insert_log_to_asset_movement_timeline_table('REQUEST_DELETE',$amt_log_paragraph,$arData->cid,$arData->scid,$arData->pigi_id);
+			//-------end ASSET MOVEMENT TIMELINE INSERT
+
+			$this->Asset_requests->deleteWhere(['ar_id' => $ar_id]);
+			flash('success',$amt_log_paragraph);
+			back();
+		endif;
 	}
 }

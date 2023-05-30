@@ -87,6 +87,7 @@
             datatable.destroy();
 
             $(document).ready(function() {
+                $.fn.dataTable.ext.errMode = 'throw'; // Add this line
               $('#datatable-buttons').DataTable({
                 // Processing indicator
                 "processing": true,

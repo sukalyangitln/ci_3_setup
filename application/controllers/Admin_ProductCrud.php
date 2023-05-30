@@ -9,13 +9,10 @@ class Admin_ProductCrud extends AD_Controller {
 		$this->load->model('Tbl_category');
 		$this->load->model('Tbl_subcategory');
 		$this->load->model('Tbl_product');
-		// $this->load->model('Incomming_assets');
 		$this->load->model('Product_incomming_general_information');		
 		$this->load->model('Product_incomming_stock');
-
 		$this->load->model('Serverside_product_incomming_general_information');
-		$this->load->model('Asset_movement_timeline');
-		
+		$this->load->model('Asset_movement_timeline');		
 		$this->load->library('ci_qr_code');
 		$this->config->load('qr_code');
 	}
@@ -100,7 +97,27 @@ class Admin_ProductCrud extends AD_Controller {
 					$pis_closing_asset_value = $this->input->post('closing_value');
 					$pis_remarks = $this->input->post('pis_remarks');
 					// This is the main contexts wchich the QR code have and all the contents are dynamic.
-					$Qrcode_context = "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
+
+					$Qrcode_context = strval(
+						'Barcode: '.$pigi_product_barcode.", ".
+						'Category Name: '.$category_data->cname.", ".
+						'Sub-Category Name: '.$sub_category_data->scname.", ".
+						'Product Name: '.$pigi_product_name.", ".
+						'Product Desc: '.$pigi_product_description.", ".
+						'Product qty: '.$pis_qty.", ".
+						'Serial No.: '.$pis_serial_number.", ".
+						'Purchase Date: '.$pis_purchase_date.", ".
+						'Original Cost: '.$pis_product_original_cost.", ".
+						'Retired: '.$this->input->post('retired').", ".
+						'Retired Date: '.$pis_retired_date.", ".
+						'Depriciation: '.$pis_depriciation_rate.", ".
+						'Closing Value: '.$pis_closing_asset_value.", ".
+						'Vendor Name: '.$pis_vendor_name.", ".
+						'Vendor Phone: '.$pis_vendor_phone.", ".
+						'Vendor Address: '.$pis_vendor_address.", ".
+						'Remarks: '.$pis_remarks
+					);
+					// echo $Qrcode_context; die;
 					$QRCODE = $this->generate_qr_code($category_data,$Qrcode_context); //If the main category table field `cat_has_qr_code` == 'Y' then This function returns an array which contains qr code full path and the file name of the generated QR code. Otherwise the QR code will not be generated.
 					$Product_General_Info = [
 						'pigi_main_cat_id' => $pigi_main_cat_id,
@@ -141,7 +158,7 @@ class Admin_ProductCrud extends AD_Controller {
 						//  -----------end ADDING STOCK TO `product_incomming_stock` TABLE -----------
 
 						//  -----------start ADDING ASSET MOVEMENT TIMELINE TO `asset_movement_timeline` TABLE -----------
-						$amt_log_paragraph = 'New asset named '.$pigi_product_name.' of '.$pis_qty.' no/nos of quantity has been added to system at '.date('Y-m-d H:i:s').' and the main category name is '.$category_data->cname.', and the sub category name is '.$sub_category_data->scname;
+						$amt_log_paragraph = 'A new asset referred to as the '.$pigi_product_name.' with a total quantity of '.$pis_qty.' units was successfully incorporated into the system on '.date('jS F Y', strtotime(date('Y-m-d'))).' at precisely '.date('h:i a', strtotime(date('H:i:s'))).'. This asset falls under the main category of '.$category_data->cname.', specifically classified as a '.$sub_category_data->scname.' within the subcategory hierarchy.';
 						insert_log_to_asset_movement_timeline_table('INCOMMING',$amt_log_paragraph,$pigi_main_cat_id,$pigi_sub_cat_id,$pigi_id); //This function is available at application/helpers/asset_movement_helper.php
 						//  -----------end ADDING ASSET MOVEMENT TIMELINE TO `asset_movement_timeline` TABLE -----------
 
@@ -206,7 +223,25 @@ class Admin_ProductCrud extends AD_Controller {
 			$pis_remarks = $this->input->post('pis_remarks');
 
 			// This is the main contexts wchich the QR code have and all the contents are dynamic.
-			$Qrcode_context = "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
+			$Qrcode_context = strval(
+				'Barcode: '.$ProductData->pigi_product_barcode.", ".
+				'Category Name: '.$category_data->cname.", ".
+				'Sub-Category Name: '.$sub_category_data->scname.", ".
+				'Product Name: '.$ProductData->pigi_product_name.", ".
+				'Product Desc: '.$ProductData->pigi_product_description.", ".
+				'Product qty: '.$pis_qty.", ".
+				'Serial No.: '.$pis_serial_number.", ".
+				'Purchase Date: '.$pis_purchase_date.", ".
+				'Original Cost: '.$pis_product_original_cost.", ".
+				'Retired: '.$this->input->post('retired').", ".
+				'Retired Date: '.$pis_retired_date.", ".
+				'Depriciation: '.$pis_depriciation_rate.", ".
+				'Closing Value: '.$pis_closing_asset_value.", ".
+				'Vendor Name: '.$pis_vendor_name.", ".
+				'Vendor Phone: '.$pis_vendor_phone.", ".
+				'Vendor Address: '.$pis_vendor_address.", ".
+				'Remarks: '.$pis_remarks
+			);
 			$QRCODE = $this->generate_qr_code($category_data,$Qrcode_context); //If the main category table field `cat_has_qr_code` == 'Y' then This function returns an array which contains qr code full path and the file name of the generated QR code. Otherwise the QR code will not be generated.
 			// -----------start ADDING STOCK TO `product_incomming_stock` TABLE--------
 			$product_incomming_stock_INSERT = [
@@ -356,6 +391,7 @@ class Admin_ProductCrud extends AD_Controller {
 			           	get_subcategory_name($list->pigi_sub_cat_id), 
 			           	$list->pigi_product_barcode, 
 			           	$list->pigi_created_datetime, 
+			           	get_asset_current_stock($list->pigi_id).' Units', 
 			           	$details_button
 			        ];
        	}
@@ -373,8 +409,8 @@ class Admin_ProductCrud extends AD_Controller {
 	public function show_product_details(){
 		$pigi_id = decr($this->input->get('encrdtls_pigi_id'));
 		$ProductGeneral_info = $this->Product_incomming_general_information->check(['pigi_id' => $pigi_id]);
-		$Productstock_info = $this->Product_incomming_stock->get(['pis_FK_asset_id' => $pigi_id]);
-		$ProductAssetMovement_timeline = $this->Asset_movement_timeline->get(['amt_FK_asset_id' => $pigi_id]);
+		$Productstock_info = $this->Product_incomming_stock->get(['pis_FK_asset_id' => $pigi_id],'pis_id','DESC');
+		$ProductAssetMovement_timeline = $this->Asset_movement_timeline->get(['amt_FK_asset_id' => $pigi_id],'amt_id','DESC');
 		$Data = [
 			'PageTitle' => 'Admin | Product Information',
 			'PageName' => 'Admin | Product Information',
@@ -395,12 +431,3 @@ class Admin_ProductCrud extends AD_Controller {
 		echo json_encode($res);
 	}
 }
-
-
-// $categoryname = get_category_name($cid);	
-// $subcategoryname = 	get_subcategory_name($scid);
-// if($pis_purchase_date == "1969-12-31" || $pis_retired_date == "1969-12-31") :
-//     $text = 'Barcode:'.$pigi_product_barcode.', Category Name:'.$categoryname.', Sub-Category Name:'.$subcategoryname.', Product Name:'.$pigi_product_name.', Product Desc:'.$pigi_product_description.', Product qty:'.$pis_qty.', Serial No.:'.$serial_no.', Purchase Date:NUll, Original Cost:'.$pis_product_original_cost.', Retired:'.$retired.', Retired Date : NUll, Depriciation'.$depreciation.', Closing Value:'.$closing_value.', Vendor Name:'.$vendor_name;
-// else :
-//     $text = 'Barcode:'.$pigi_product_barcode.', Category Name:'.$categoryname.', Sub-Category Name:'.$subcategoryname.', Product Name:'.$pigi_product_name.', Product Desc:'.$pigi_product_description.', Product qty:'.$pis_qty.', Serial No.:'.$serial_no.', Purchase Date:'.$pis_purchase_date.', Original Cost:'.$pis_product_original_cost.', Retired:'.$retired.', Retired Date'.$pis_retired_date.', Depriciation'.$depreciation.', Closing Value:'.$closing_value.', Vendor Name:'.$vendor_name;
-// endif;

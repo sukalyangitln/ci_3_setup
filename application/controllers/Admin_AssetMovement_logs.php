@@ -21,30 +21,25 @@ class Admin_AssetMovement_logs extends AD_Controller {
 		$this->admin_view('asset_movement_logs',$Data);
 	}
 	public function serverside_list(){
-		$data = $row = array();
-	       
-   		// Fetch member's records
+		$data = $row = array(); 
    		$movementLogs = $this->Serverside_asset_movement_timeline->getRows($_POST);
-   
        	$i = $_POST['start'];
        	foreach($movementLogs as $list){
-           $i++;
+
            $data[] = [
 			           	$i, 
 			           	$list->amt_dateTime, 
 			           	$list->amt_log_paragraph, 
 			           	$list->amt_type, 
 			        ];
+					$i++;
        	}
-       
-       	$output = array(
-           "draw" => $_POST['draw'],
-           "recordsTotal" => $this->Serverside_asset_movement_timeline->countAll(),
-           "recordsFiltered" => $this->Serverside_asset_movement_timeline->countFiltered($_POST),
-           "data" => $data,
-       	);
-       
-       	// Output to JSON format
+       	$output = [
+			"draw" => $_POST['draw'],
+			"recordsTotal" => $this->Serverside_asset_movement_timeline->countAll(),
+			"recordsFiltered" => $this->Serverside_asset_movement_timeline->countFiltered($_POST),
+			"data" => $data,
+		];
        	echo json_encode($output);
 	}
 }

@@ -40,48 +40,34 @@
                                                         <th>Reference Id</th>
                                                         <th>Request From</th>
                                                         <th>Product Info.</th>
-                                                        <th>Qty</th>
-                                                        <th>Additional Note</th>
+                                                        <th>Requested Qty</th>
+                                                        <th>Released Qty</th>
                                                         <th>Admin Note</th>
                                                         <th>Current Status</th>
-                                                        <th>Rejection Datetime</th>
-                                                        <th>Action</th>
+                                                        <th>Approval Datetime</th>
                                                     </tr>
                                                     </thead>
                                                     <tbody>
                                                         <?php
                                                             $st = 1;
-                                                            foreach($requestData as $list):
+                                                            foreach($Approved_Data as $list):
                                                         ?>
                                                         <tr>
                                                             <td><?=$st;?></td>
-                                                            <td><strong><span class="badge bg-dark"><?=$list->ar_serial_number;?></span></strong></td>
+                                                            <td><strong><span class="badge bg-dark"><?=$list->oa_FK_reference_id;?></span></strong></td>
                                                             <td><?=$list->Store_Name;?></td>
                                                             <td><?=$list->pigi_product_name;?></td>
-                                                            <td><?=$list->ar_requested_qty;?></td>
-                                                            <td><?=$list->ar_remarks;?></td>
-                                                            <td><?=$list->ar_admin_remarks;?></td>
-                                                            <td>
-                                                                <?php
-                                                                    if($list->ar_status == 'P'):
-                                                                        echo '<span class="badge bg-warning">PROCESSING</span>';
-                                                                    elseif($list->ar_status == 'R'):
-                                                                        echo '<span class="badge bg-danger">REJECTED</span>';
-                                                                    endif;
-                                                                ?>
-                                                            </td>
-                                                            <td><?=$list->ar_admin_rejected_datetime;?></td>
-                                                            <td>
-                                                                <div style="min-width:170px;">
-                                                                    <a href="javascript:void(0);" onclick="delete_this('<?=encr($list->ar_id);?>')" class="btn btn-danger btn-sm br-0"><i class="fa fa-close"></i> Delete?</a>
-                                                                </div>
-                                                            </td>
+                                                            <td><?=$list->oa_requested_qty;?></td>
+                                                            <td><?=$list->oa_provided_qty;?></td>
+                                                            <td><?=$list->oa_admin_remarks;?></td>
+                                                            <td><?=$list->oa_operaional_status;?></td>
+                                                            <td><?=$list->oa_approved_datetime;?></td>
                                                         </tr>
                                                         <?php $st++; endforeach; ?>
                                                     </tbody>
                                                 </table>
-                                                <?=form_open('admin/asset-requests/delete-rejected-request','name="delete_form" method="get"');?>
-                                                <input type="hidden" name="dlt_encr_ar_id">
+                                                <?=form_open('admin/asset-requests/reject-a-request','name="reject_form" method="get"');?>
+                                                <input type="hidden" name="reject_encr_ar_id">
                                                 <?=form_close();?>
                                             </div>
                                         </div>
@@ -105,27 +91,8 @@
         <!-- Sweet alert init js-->
         <script src="<?=base_url('assets/backend');?>/js/pages/sweet-alerts.init.js"></script>
         <script>
-            function delete_this(dlt_encr_ar_id){
-                Swal.fire({
-                  title: "Are you sure?",
-                  text: "You won't be able to revert this!",
-                  icon: "warning",
-                  showCancelButton: true,
-                  confirmButtonColor: "#34c38f",
-                  cancelButtonColor: "#f46a6a",
-                  confirmButtonText: "Yes, delete it!"
-                }).then(function(result) {
-                  if (result.isConfirmed) {
-                    $('input[name="dlt_encr_ar_id"]').val(dlt_encr_ar_id);
-                    $('form[name="delete_form"]').submit();
-                  } else {
-                    Swal.fire(
-                          "Cancelled",
-                          "Your file deletion has been cancelled.",
-                          "info"
-                        );
-                  }
-                });
+            function delete_this(encr_category_id){
+                alert('Under development');
             }
         </script>
         <script>

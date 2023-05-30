@@ -6,11 +6,11 @@ class Serverside_asset_movement_timeline extends CI_Model
 	    // Set table name
 	    $this->table = 'asset_movement_timeline';
 	    // Set orderable column fields
-	    $this->column_order = array(null, 'amt_id','amt_type', 'amt_log_paragraph', 'amt_table_name', 'amt_FK_table_id', 'amt_FK_main_category_id', 'amt_FK_sub_category_id', 'amt_dateTime');
+	    $this->column_order = [null, 'amt_id','amt_type','amt_log_paragraph','amt_FK_main_category_id','amt_FK_sub_category_id','amt_dateTime'];
 	    // Set searchable column fields
-	    $this->column_search = array('amt_id','amt_type','amt_log_paragraph','amt_table_name', 'amt_FK_table_id', 'amt_FK_main_category_id','amt_FK_sub_category_id','amt_dateTime');
+	    $this->column_search = ['amt_id','amt_type','amt_log_paragraph','amt_FK_main_category_id','amt_FK_sub_category_id','amt_dateTime'];
 	    // Set default order
-	    $this->order = array('amt_id' => 'DESC');
+	    $this->order = ['amt_id' => 'DESC'];
 	}
 
 	/*

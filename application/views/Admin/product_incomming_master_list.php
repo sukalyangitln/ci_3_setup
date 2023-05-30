@@ -42,6 +42,7 @@
                                                         <th>Sub Category</th>
                                                         <th>Barcode</th>
                                                         <th>Created Datetime</th>
+                                                        <th>In Stock</th>
                                                         <th>View Details</th>
                                                     </tr>
                                                 </thead>

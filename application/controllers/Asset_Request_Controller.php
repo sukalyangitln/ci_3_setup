@@ -12,6 +12,7 @@ class Asset_Request_Controller extends AD_Controller {
 		$this->load->model('Asset_requests');
 		$this->load->model('Asset_movement_timeline');
 		$this->load->model('Product_incomming_general_information');
+		$this->load->model('Outgoing_assets');
 	}
 	public function index(){
 		$Data = [
@@ -94,14 +95,8 @@ class Asset_Request_Controller extends AD_Controller {
 				];				
 				$ar_id = $this->Asset_requests->insert($InsertData);
 				$amt_log_paragraph = $StoreData->store.' submitted a request to provide '.$ar_requested_qty.' '.$AssetData->pigi_product_name.' on '.$DATE_TIME.', and is currently awaiting approval from the administration.';
-				$asset_movement_timelineData = [
-					'amt_type' => 'REQUEST',
-					'amt_log_paragraph' => $amt_log_paragraph,
-					'amt_FK_main_category_id' => $ar_FK_main_category_id,
-					'amt_FK_sub_category_id' => $ar_FK_sub_category_id,
-					'amt_dateTime' => $DATE_TIME,
-				];
-				$this->Asset_movement_timeline->insert($asset_movement_timelineData);
+				insert_log_to_asset_movement_timeline_table('REQUEST',$amt_log_paragraph,$ar_FK_main_category_id,$ar_FK_sub_category_id,$ar_FK_asset_id);
+				
 				$res = [
 					'status' => 1,
 					'msg' => '<div class="alert alert-success" role="alert">Your request has been successfully submitted and is currently awaiting approval. Please note that your reference ID is <strong>'.$ar_serial_number.'</strong>. Kindly keep this reference ID for any future inquiries or updates regarding your request.</div>',
@@ -126,7 +121,13 @@ class Asset_Request_Controller extends AD_Controller {
 		return $ar_serial_number;
 	}
 	public function approved_requests(){
-
+		$Approved_Data = $this->Outgoing_assets->get_approved_requests_for_store(UL_ID);
+		$Data = [
+			'PageTitle' => 'Asset Request Lists | Approved',
+			'PageName' => 'Asset Request Lists | Approved',
+			'Approved_Data' => $Approved_Data,
+		];
+		$this->admin_view('asset_request_approved',$Data);
 	}
 	public function processing_requests(){
 		$requestData = $this->Asset_requests->get_request_for_show_to_store($ar_status = 'P');

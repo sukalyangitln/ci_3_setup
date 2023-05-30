@@ -53,7 +53,7 @@
         </style>
     </head>
     <script type="text/javascript">
-        const BASE_URL='http://localhost/asset_tracking/';
+        const BASE_URL='<?=BASE_URL;?>';
     </script>
     <link href="<?=base_url('assets/backend');?>/libs/sweetalert2/sweetalert2.min.css" rel="stylesheet" type="text/css" />
     <body data-sidebar="dark">
@@ -145,7 +145,7 @@
                                                 </div>
                                                 <div class="tab-pane" id="ast_movement_timeline" role="tabpanel">
                                                     <div class="table-responsive">
-                                                        <table id="example" class="table table-sm table-bordered dt-responsive nowrap w-100">
+                                                        <table id="example" class="table table-bordered table-sm">
                                                             <thead>
                                                             <tr>
                                                                 <th>#</th>
@@ -473,6 +473,7 @@
                     dataType: 'json',
                     success: function(response){
                         $('#LiveStock_count').html(response.LiveStock_count);
+                        // console.log(response);
                     }
                   });
               }

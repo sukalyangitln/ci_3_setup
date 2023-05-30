@@ -2,18 +2,21 @@
 <li class="<?=(AdminMenuActive()['ul']=='admin-stores')?'menu-active':''; ?>">
     <a href="<?=base_url('admin/stores');?>" class="waves-effect text-dark">
         <img src="<?=base_url('assets/icons/store.png');?>" alt="">
+        <span class="badge rounded-pill bg-info float-end"><?=get_nos_of_stores();?></span>
         <span key="" style="margin-left: 15px;">Stores</span>
     </a>
 </li>
 <li class="<?=(AdminMenuActive()['ul']=='admin-categories')?'menu-active':''; ?>">
     <a href="<?=base_url('admin/categories');?>" class="waves-effect text-dark">
         <img src="<?=base_url('assets/icons/categories.png');?>" alt="">
+        <span class="badge rounded-pill bg-info float-end"><?=get_nos_of_categories();?></span>
         <span key="" style="margin-left: 15px;">Categories</span>
     </a>
 </li>
 <li class="<?=(AdminMenuActive()['ul']=='admin-sub-categories')?'menu-active':''; ?>">
     <a href="<?=base_url('admin/sub-categories');?>" class="waves-effect text-dark">
         <img src="<?=base_url('assets/icons/folder.png');?>" alt="">
+        <span class="badge rounded-pill bg-info float-end"><?=get_nos_of_subcategories();?></span>
         <span key="" style="margin-left: 15px;">Sub Categories</span>
     </a>
 </li>
@@ -30,7 +33,7 @@
     </a>
     <ul class="sub-menu mm-collapse" aria-expanded="false" >
         <li><a href="<?=base_url('admin/product/add');?>" >Add Product</a></li>
-        <li><a href="<?=base_url('admin/product/list');?>" >Added Product List</a></li>
+        <li><a href="<?=base_url('admin/product/list');?>" >Product List <span class="badge rounded-pill bg-info float-end"><?=get_nos_of_products();?></span></a></li>
     </ul>
 </li>
 <li class="">
@@ -39,9 +42,9 @@
         <span key="" style="margin-left: 15px;">Asset Requests</span>
     </a>
     <ul class="sub-menu mm-collapse" aria-expanded="false" >
-        <li><a href="<?=base_url('admin/asset-requests/processing');?>">Processing</a></li>
-        <li><a href="<?=base_url('admin/asset-requests/approved');?>">Approved</a></li>
-        <li><a href="<?=base_url('admin/asset-requests/rejected');?>">Rejected</a></li>
+        <li><a href="<?=base_url('admin/asset-requests/processing');?>">Processing <span class="badge rounded-pill bg-warning float-end"><?=get_nos_of_pending_requests();?></span></a> </li>
+        <li><a href="<?=base_url('admin/asset-requests/approved');?>">Approved <span class="badge rounded-pill bg-success float-end"><?=get_nos_of_approved_requests();?></span></a></li>
+        <li><a href="<?=base_url('admin/asset-requests/rejected');?>">Rejected <span class="badge rounded-pill bg-danger float-end"><?=get_nos_of_rejected_request();?></span></a></li>
     </ul>
 </li>
 <li class="<?=(AdminMenuActive()['ul']=='admin-company-profile')?'menu-active':''; ?>">

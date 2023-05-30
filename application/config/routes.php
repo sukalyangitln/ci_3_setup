@@ -51,7 +51,13 @@ $route['admin/categories/add']['POST'] = 'Admin_CategoryCrud/store';
 $route['admin/categories/delete']['GET'] = 'Admin_CategoryCrud/delete';
 $route['admin/categories/edit']['GET'] = 'Admin_CategoryCrud/edit';
 $route['admin/categories/update']['POST'] = 'Admin_CategoryCrud/update';
-
+/*
+| -------------------------------------------------------------------------
+| ADMIN LIVE RESULTS (setInterval)
+| -------------------------------------------------------------------------
+*/
+$route['admin/product/get-live-stock']['GET'] = 'Admin_ProductCrud/get_live_stock'; //hitting by setInterval function from application/views/Admin/product_details.php
+$route['admin/dashboard-live-counts']['GET'] = 'Admin_setInterval_Controller/get_dashboard_live_counts'; //hitting by setInterval function from application/views/Admin/dashboard.php
 /*
 | -------------------------------------------------------------------------
 | ADMIN SUB CATEGORY CRUD 
@@ -75,7 +81,7 @@ $route['admin/product/fetch-sub-category']['GET'] = 'Admin_ProductCrud/fetch_sub
 $route['admin/product/list']['GET'] = 'Admin_ProductCrud/show_list';
 $route['admin/product/serverside-list']['POST'] = 'Admin_ProductCrud/ajax_show_list';
 $route['admin/product/view-details']['GET'] = 'Admin_ProductCrud/show_product_details';
-$route['admin/product/get-live-stock']['GET'] = 'Admin_ProductCrud/get_live_stock'; //hitting by setInterval function from application/views/Admin/product_details.php
+ 
 /*
 | -------------------------------------------------------------------------
 | ASSET REQUEST ROUTES FOR ADMIN
@@ -89,6 +95,7 @@ $route['admin/asset-requests/rejected']['GET'] = 'Admin_Asset_Request_Action_Con
 $route['admin/asset-requests/reject-a-request']['GET'] = 'Admin_Asset_Request_Action_Controller/make_rejection';
 $route['admin/asset-requests/approve-a-request']['POST'] = 'Admin_Asset_Request_Action_Controller/make_approve';
 $route['admin/asset-requests/get-data-before-approving-the-request']['GET'] = 'Admin_Asset_Request_Action_Controller/get_data_before_approving_the_request';
+$route['admin/asset-requests/delete-rejected-request']['GET'] = 'Admin_Asset_Request_Action_Controller/delete_rejected_request';
 /*
 | -------------------------------------------------------------------------
 | ADMIN ASSET MOVEMENT LOGS 

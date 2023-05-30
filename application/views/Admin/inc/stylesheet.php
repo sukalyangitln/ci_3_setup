@@ -37,7 +37,7 @@
     </style>
 </head>
 <script type="text/javascript">
-	const BASE_URL='<?=base_url();?>';
+	const BASE_URL='<?=BASE_URL;?>';
 </script>
 
 
