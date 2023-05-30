@@ -1,7 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-// define('BASE_URL','https://carrental.godswillinnovations.com/');
-define('BASE_URL','http://localhost/asset_tracking/');
+define('BASE_URL','http://localhost/third_law/asset_tracking/');
 define('USER_PREFIX','CF');
 define('CAR_SL','CAR');
 define('CUR','$');

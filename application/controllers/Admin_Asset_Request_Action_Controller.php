@@ -142,4 +142,7 @@ class Admin_Asset_Request_Action_Controller extends AD_Controller {
 			// back();
 		endif;
 	}
+	public function testoo(){
+		echo 'Here';
+	}
 }
