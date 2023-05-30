@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 30, 2023 at 08:56 AM
+-- Generation Time: May 30, 2023 at 03:41 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.0.28
 
@@ -61,7 +61,7 @@ INSERT INTO `admin` (`id`, `admin_type`, `store`, `store_address`, `store_mng_na
 
 CREATE TABLE `asset_movement_timeline` (
   `amt_id` bigint(20) NOT NULL,
-  `amt_type` enum('INCOMMING','OUTGOING','REQUEST','REQUEST_REJECTION') NOT NULL,
+  `amt_type` enum('INCOMMING','OUTGOING','REQUEST','REQUEST_REJECTION','REQUEST_DELETE') NOT NULL,
   `amt_log_paragraph` text NOT NULL,
   `amt_FK_main_category_id` bigint(20) NOT NULL COMMENT 'primary key of `tbl_category`',
   `amt_FK_sub_category_id` bigint(20) NOT NULL COMMENT 'primary key of `tbl_subcategory`',
@@ -74,16 +74,8 @@ CREATE TABLE `asset_movement_timeline` (
 --
 
 INSERT INTO `asset_movement_timeline` (`amt_id`, `amt_type`, `amt_log_paragraph`, `amt_FK_main_category_id`, `amt_FK_sub_category_id`, `amt_FK_asset_id`, `amt_dateTime`) VALUES
-(1, 'INCOMMING', 'New asset named Infinix Inbook Y1 plus  of 45 no/nos of quantity has been added to system at 2023-05-29 17:47:43 and the main category name is IT Equipment, and the sub category name is Laptop', 2, 13, 1, '2023-05-29 17:47:43'),
-(2, 'INCOMMING', 'New asset named Epson Scanner of 42 no/nos of quantity has been added to system at 2023-05-29 17:48:18 and the main category name is IT Equipment, and the sub category name is Scanner', 2, 177, 2, '2023-05-29 17:48:18'),
-(3, 'INCOMMING', '23 more units of the product named Epson Scanner  were added to the stock on 2023-05-29 17:49:12. The product belongs to the main category of IT Equipment, specifically the subcategory of Scanner', 2, 177, 2, '2023-05-29 17:49:12'),
-(4, 'REQUEST', 'The 99 Thali Shop (Avani Mall) submitted a request to provide 2 Epson Scanner on 2023-05-29 17:49:59, and is currently awaiting approval from the administration.', 2, 177, 0, '2023-05-29 17:49:59'),
-(6, 'REQUEST_REJECTION', 'Asset request reference no. ASREQ1 has been rejected at 2023-05-29 17:56:12 for the quantity of 2 of Epson Scanner', 2, 177, 2, '2023-05-29 17:56:12'),
-(7, 'REQUEST', 'The 99 Thali Shop (Avani Mall) submitted a request to provide 20 Infinix Inbook Y1 plus  on 2023-05-29 17:56:51, and is currently awaiting approval from the administration.', 2, 13, 0, '2023-05-29 17:56:51'),
-(12, 'REQUEST', 'The 99 Thali Shop (Avani Mall) submitted a request to provide 6 Epson Scanner on 2023-05-29 19:07:58, and is currently awaiting approval from the administration.', 2, 177, 0, '2023-05-29 19:07:58'),
-(13, 'OUTGOING', 'The store named The 99 Thali Shop (Avani Mall) requested 6  laptops belonging to the category \"IT Equipment\"\" and subcategory \"Scanner\" on 2023-05-29 19:07:58. The approval for 6 units of the requested item was granted on 2023-05-29 19:08:11', 2, 177, 2, '2023-05-29 19:08:11'),
-(14, 'REQUEST', 'The 99 Thali Shop (Avani Mall) submitted a request to provide 3 Epson Scanner on 2023-05-29 19:19:33, and is currently awaiting approval from the administration.', 2, 177, 0, '2023-05-29 19:19:33'),
-(15, 'OUTGOING', 'The store named The 99 Thali Shop (Avani Mall) requested 3  laptops belonging to the category \"IT Equipment\"\" and subcategory \"Scanner\" on 2023-05-29 19:19:33. The approval for 3 units of the requested item was granted on 2023-05-29 19:20:32', 2, 177, 2, '2023-05-29 19:20:33');
+(1, 'REQUEST', 'The 99 Thali Shop (Avani Mall) submitted a request to provide 6 Vaccum cleaner philips on 2023-05-30 18:58:13, and is currently awaiting approval from the administration.', 1, 179, 2, '2023-05-30 18:58:13'),
+(2, 'OUTGOING', 'The store named The 99 Thali Shop (Avani Mall) requested 6  laptops belonging to the category \"Office Equipment\"\" and subcategory \"Vacuum Cleaner\" on 2023-05-30 18:58:13. The approval for 5 units of the requested item was granted on 2023-05-30 18:59:27', 1, 179, 2, '2023-05-30 18:59:27');
 
 -- --------------------------------------------------------
 
@@ -105,13 +97,6 @@ CREATE TABLE `asset_requests` (
   `ar_admin_rejected_datetime` datetime DEFAULT NULL,
   `ar_status` enum('P','R') NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `asset_requests`
---
-
-INSERT INTO `asset_requests` (`ar_id`, `ar_serial_number`, `ar_FK_store_id`, `ar_FK_main_category_id`, `ar_FK_sub_category_id`, `ar_FK_asset_id`, `ar_requested_qty`, `ar_remarks`, `ar_admin_remarks`, `ar_requested_datetime`, `ar_admin_rejected_datetime`, `ar_status`) VALUES
-(1, 'ASREQ1', 13, 2, 177, 2, 2, 'f sdf sdfsd fsd fsdf ', '', '2023-05-29 17:49:59', '2023-05-29 17:56:12', 'R');
 
 -- --------------------------------------------------------
 
@@ -139,7 +124,7 @@ CREATE TABLE `company_profile` (
 --
 
 INSERT INTO `company_profile` (`comp_id`, `comp_name`, `comp_show_name`, `comp_contact_no`, `comp_whats_app_no`, `comp_email`, `comp_logo_path`, `comp_logo`, `comp_favicon`, `comp_copyright`, `comp_develop_by`, `comp_develop_by_link`) VALUES
-(1, 'EFF N BEE MARKETINGsadasdasdsad', 'EFF N BEE MARKETING', '8250425793', '8250425793', 'example@gmail.com', 'assets/uploads/dynamic_page/company_profile/', 'xt8ik4u4q7d5nydhhyj6.png', 'xt8ik4u4q7d5nydhhyj61.png', '© Copyright 2020 EFF N BEE MARKETING Website. All Rights Reserved.', 'Sukalyan', '#');
+(1, 'EFF N BEE MARKETINGsadasdasdsad', 'EFF N BEE MARKETING', '8250425793', '8250425793', 'example@gmail.com', 'assets/uploads/dynamic_page/company_profile/', 'xt8ik4u4q7d5nydhhyj6.png', '52ar1hcgg4yeduof1q7n.jpg', '© Copyright 2020 EFF N BEE MARKETING Website. All Rights Reserved.', 'Sukalyan', '#');
 
 -- --------------------------------------------------------
 
@@ -166,9 +151,7 @@ CREATE TABLE `outgoing_assets` (
 --
 
 INSERT INTO `outgoing_assets` (`oa_id`, `oa_FK_asset_id`, `oa_FK_store_id`, `oa_FK_main_category_id`, `oa_FK_sub_category_id`, `oa_FK_reference_id`, `oa_requested_qty`, `oa_provided_qty`, `oa_admin_remarks`, `oa_approved_datetime`, `oa_operaional_status`) VALUES
-(2, 1, 13, 2, 13, '', 20, 20, '', '2023-05-29 19:05:24', 'OPS'),
-(3, 2, 13, 2, 177, '', 6, 6, '', '2023-05-29 19:08:11', 'OPS'),
-(4, 2, 13, 2, 177, 'ASREQ2', 3, 3, 'ncvcbv', '2023-05-29 19:20:32', 'OPS');
+(1, 2, 13, 1, 179, 'ASREQ1', 6, 5, 'Ok niye nao', '2023-05-30 18:59:27', 'OPS');
 
 -- --------------------------------------------------------
 
@@ -191,8 +174,10 @@ CREATE TABLE `product_incomming_general_information` (
 --
 
 INSERT INTO `product_incomming_general_information` (`pigi_id`, `pigi_main_cat_id`, `pigi_sub_cat_id`, `pigi_product_name`, `pigi_product_description`, `pigi_product_barcode`, `pigi_created_datetime`) VALUES
-(1, 2, 13, 'Infinix Inbook Y1 plus ', 'dsadsad', 'CHAIGRAM001', '2023-05-29 17:47:43'),
-(2, 2, 177, 'Epson Scanner', 'sdasdasd', 'CHAIGRAM002', '2023-05-29 17:48:18');
+(1, 3, 135, 'Godrej Wooden chair', 'test test', 'CHAIGRAM001', '2023-05-30 17:15:21'),
+(2, 1, 179, 'Vaccum cleaner philips', 'khkhkhkhkh', 'CHAIGRAM002', '2023-05-30 17:17:44'),
+(3, 1, 178, 'MTNL mobile phone', 'dsfsfdsdfdsf', 'CHAIGRAM003', '2023-05-30 17:25:05'),
+(4, 2, 158, 'Lenovo mouse', 'dfsdfsd sdf zsf zf zf ', 'CHAIGRAM004', '2023-05-30 18:50:02');
 
 -- --------------------------------------------------------
 
@@ -231,9 +216,11 @@ CREATE TABLE `product_incomming_stock` (
 --
 
 INSERT INTO `product_incomming_stock` (`pis_id`, `pis_FK_asset_id`, `pis_FK_main_category_id`, `pis_FK_sub_category_id`, `pis_qty`, `pis_product_original_cost`, `pis_serial_number`, `pis_purchase_date`, `pis_is_retired`, `pis_retired_date`, `pis_depriciation_rate`, `pis_vendor_name`, `pis_vendor_phone`, `pis_vendor_address`, `pis_invoice_type`, `pis_invoice_file_name`, `pis_invoice_uploaded_path`, `pis_is_generate_qr`, `pis_generated_qr_filename`, `pis_generated_qr_path`, `pis_closing_asset_value`, `pis_remarks`, `pis_added_datetime`) VALUES
-(1, 1, 2, 13, 45, 100, 'CHISR001', '2023-05-29', 'N', NULL, 1, 'Flipkart', '9876543210', 'dsfsdfsdf', '', '83092620230529054743.png', 'http://localhost/asset_tracking/assets/vimg/83092620230529054743.png', 'Y', '97502820230529174743.png', 'http://localhost/asset_tracking/global/tmp/qr_codes/97502820230529174743.png', 99, 'ffff', '2023-05-29 17:47:43'),
-(2, 2, 2, 177, 42, 100, 'CHISR002', '2023-05-29', 'N', NULL, 1, 'Flipkart', '9876543210', 'asdasdsad', 'pdf', '12328820230529054818.pdf', 'http://localhost/asset_tracking/assets/vimg/12328820230529054818.pdf', 'Y', '12673920230529174818.png', 'http://localhost/asset_tracking/global/tmp/qr_codes/12673920230529174818.png', 99, '', '2023-05-29 17:48:18'),
-(3, 2, 2, 177, 23, 5263, 'CHISR003', '2023-05-29', 'N', NULL, 1, 'Milon Da', '9876543210', 'fdgdfgdfg', '', '72189720230529054912.png', 'http://localhost/asset_tracking/assets/vimg/72189720230529054912.png', 'Y', '13171420230529174912.png', 'http://localhost/asset_tracking/global/tmp/qr_codes/13171420230529174912.png', 5210.37, '', '2023-05-29 17:49:12');
+(1, 1, 3, 135, 52, 150000, 'CHISR001', '2023-05-30', 'N', NULL, 1, 'Sukalyan', '9876543210', 'test test', '', '66732220230530051521.png', 'http://localhost/third_law/asset_tracking/assets/vimg/66732220230530051521.png', 'Y', '68914520230530171521.png', 'http://localhost/third_law/asset_tracking/global/tmp/qr_codes/68914520230530171521.png', 148500, 'eee remarks', '2023-05-30 17:15:21'),
+(2, 2, 1, 179, 20, 215000, 'CHISR002', '2023-05-30', 'Y', '2023-05-30', 1, 'Milon Da', '9876543210', 'sadasdasdasd', 'pdf', '87257020230530051744.pdf', 'http://localhost/third_law/asset_tracking/assets/vimg/87257020230530051744.pdf', 'Y', '67037820230530171744.png', 'http://localhost/third_law/asset_tracking/global/tmp/qr_codes/67037820230530171744.png', 212850, '', '2023-05-30 17:17:44'),
+(3, 3, 1, 178, 36, 254100, 'CHISR003', '2023-05-30', 'Y', '2023-05-26', 2, 'Milon Da', '9876543210', 'asdasdasd', 'pdf', '28692220230530052504.pdf', 'http://localhost/third_law/asset_tracking/assets/vimg/28692220230530052504.pdf', 'Y', '89012720230530172504.png', 'http://localhost/third_law/asset_tracking/global/tmp/qr_codes/89012720230530172504.png', 249018, '', '2023-05-30 17:25:05'),
+(4, 3, 1, 178, 56, 100, 'CHISR004', '2023-05-30', 'Y', '2023-05-31', 0, 'Test vendor', '9876543210', 'asdsadasdsad', 'pdf', '69614320230530053127.pdf', 'http://localhost/third_law/asset_tracking/assets/vimg/69614320230530053127.pdf', 'Y', '24970620230530173127.png', 'http://localhost/third_law/asset_tracking/global/tmp/qr_codes/24970620230530173127.png', 0, 'ddddd', '2023-05-30 17:31:27'),
+(5, 4, 2, 158, 26, 21000, 'CHISR005', '2023-05-30', 'N', NULL, 0, 'Flipkart', '', 'hgfghh', 'pdf', '66004320230530065002.pdf', 'http://localhost/third_law/asset_tracking/assets/vimg/66004320230530065002.pdf', 'Y', '40157120230530185002.png', 'http://localhost/third_law/asset_tracking/global/tmp/qr_codes/40157120230530185002.png', 0, 'ghfghgf', '2023-05-30 18:50:02');
 
 -- --------------------------------------------------------
 
@@ -676,13 +663,13 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT for table `asset_movement_timeline`
 --
 ALTER TABLE `asset_movement_timeline`
-  MODIFY `amt_id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `amt_id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `asset_requests`
 --
 ALTER TABLE `asset_requests`
-  MODIFY `ar_id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `ar_id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `company_profile`
@@ -694,19 +681,19 @@ ALTER TABLE `company_profile`
 -- AUTO_INCREMENT for table `outgoing_assets`
 --
 ALTER TABLE `outgoing_assets`
-  MODIFY `oa_id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `oa_id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `product_incomming_general_information`
 --
 ALTER TABLE `product_incomming_general_information`
-  MODIFY `pigi_id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `pigi_id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `product_incomming_stock`
 --
 ALTER TABLE `product_incomming_stock`
-  MODIFY `pis_id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `pis_id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `tbl_category`
