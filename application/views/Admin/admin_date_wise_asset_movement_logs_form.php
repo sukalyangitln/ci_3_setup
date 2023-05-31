@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+    <?php
+    $this->load->view('Admin/inc/stylesheet');
+    ?>
+    <link href="<?=base_url('assets/backend');?>/libs/sweetalert2/sweetalert2.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?=base_url('assets/backend');?>/libs/select2/css/select2.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?=base_url('assets/backend');?>/libs/bootstrap-datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet" type="text/css">
+    <style>
+        .main-content{
+            overflow: visible !important;
+        }
+    </style>
+    <body data-sidebar="dark">
+        <!-- Begin page -->
+        <div id="layout-wrapper">
+            <?php
+            $this->load->view('Admin/inc/header');
+            $this->load->view('Admin/inc/sidebar');
+            ?>
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="main-content">
+                <div class="page-content">
+                    <div class="container-fluid">
+                        <!-- start page title -->
+                        <?php
+                        $this->load->view('Admin/inc/page_section');
+                        ?>
+                        <!-- end page title -->
+                        <div class="row">
+                            <div class="col-12">
+                                <?=notification_message();?>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                            <div class="card border border-primary">
+                                    <div class="card-body">
+                                        <?=form_open('admin/procurement-logs','autocomplete="off" name="asset-movement-timeline-fetch" method="get"');?>
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <label for="">Select Store</label>
+                                                    <select name="store[]" class="select2 form-control select2-multiple"
+                                                            multiple="multiple" data-placeholder="Choose ...">
+                                                            <option value="ALL_STORE">All Stores</option>
+                                                            <?php 
+                                                                foreach(get_all_stores_array() as $store_list): 
+                                                                    echo '<option value="'.$store_list->id.'">'.$store_list->store.'</option>';
+                                                                endforeach;
+                                                            ?>
+                                                        </select>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <label for="">Date Range</label>
+                                                    <div class="input-daterange input-group" id="datepicker6" data-date-format="dd M, yyyy" data-date-autoclose="true" data-provide="datepicker" data-date-container='#datepicker6'>
+                                                        <input type="text" class="form-control" name="start" placeholder="Start Date" />
+                                                        <input type="text" class="form-control" name="end" placeholder="End Date" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row" style="margin-top: 10px;">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <button type="submit" class="btn btn-primary"> <i class="fa fa-eye"></i> View Logs</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        <?=form_close();?>
+                                            
+                                            
+                                        
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <?php 
+                $this->load->view('Admin/inc/footer');
+                ?>
+            </div>
+        </div>
+        <?php 
+        $this->load->view('Admin/inc/script');
+        ?>
+        <script src="<?=base_url('assets/backend');?>/js/app.js"></script>
+        <!-- Sweet Alerts js -->
+        <script src="<?=base_url('assets/backend');?>/libs/sweetalert2/sweetalert2.min.js"></script>
+        <!-- Sweet alert init js-->
+        <script src="<?=base_url('assets/backend');?>/js/pages/sweet-alerts.init.js"></script>
+        <script src="<?=base_url('assets/backend');?>/libs/select2/js/select2.min.js"></script>
+        <script src="<?=base_url('assets/backend');?>/libs/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+        <script src="<?=base_url('assets/backend');?>/js/pages/form-advanced.init.js"></script>
+        
+        <script>
+            $(function() {
+                $("form[name='asset-movement-timeline-fetch']").validate({
+                  rules: {
+                    start: {
+                      required: true,
+                      date: true,
+                    },
+                    end: {
+                      required: true,
+                      date: true,
+                    },
+                  },
+                  messages: {
+                  },
+                  submitHandler: function(form) {
+                    form.submit();
+                  }
+                });
+            });
+        </script>
+    </body>
+</html>

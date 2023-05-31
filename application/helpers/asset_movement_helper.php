@@ -1,5 +1,5 @@
 <?php
-function insert_log_to_asset_movement_timeline_table($amt_type,$amt_log_paragraph,$amt_FK_main_category_id,$amt_FK_sub_category_id,$amt_FK_asset_id){
+function insert_log_to_asset_movement_timeline_table($amt_type,$amt_log_paragraph,$amt_FK_main_category_id,$amt_FK_sub_category_id,$amt_FK_asset_id,$amt_FK_Store_id=NULL){
 	$CI =& get_instance();
 	$CI->load->model('Asset_movement_timeline');
 	$LogData = [
@@ -9,6 +9,7 @@ function insert_log_to_asset_movement_timeline_table($amt_type,$amt_log_paragrap
 		'amt_FK_main_category_id' => $amt_FK_main_category_id,
 		'amt_FK_sub_category_id' => $amt_FK_sub_category_id,
 		'amt_FK_asset_id' => $amt_FK_asset_id,
+		'amt_FK_Store_id' => $amt_FK_Store_id,
 		'amt_dateTime' => date('Y-m-d H:i:s'),
 	];
 	$CI->Asset_movement_timeline->insert($LogData);

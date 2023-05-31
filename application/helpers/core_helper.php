@@ -271,6 +271,13 @@ function get_current_url(){
 	$currentUrl = $currentProtocol . $currentDomain . '/' . $currentUri . $queryString;
 	return $currentUrl;
 }
+function convertDate($dateString)
+{
+    // $dateString = '25 May, 2023';
+    $date = DateTime::createFromFormat('d M, Y', $dateString);
+    $formattedDate = $date->format('Y-m-d');
+    return $formattedDate; // Output: 2023-05-25
+}
 
 
 

@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <title>Admin | Product Information | EFF N BEE MARKETING</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta content="Looking to rent a car? Visit CarRental.com and book your rental car today! We offer a wide range of vehicles at competitive prices. Whether you're traveling for business or pleasure, our easy-to-use website makes booking a car rental simple and hassle-free. Book now and hit the road with CarRental.com." name="description" />
+        <meta content="Asset Tracking System" />
         <meta content="Themesbrand" name="author" />
         <!-- App favicon -->
         <link rel="shortcut icon" href="http://localhost/asset_tracking/assets/uploads/dynamic_page/company_profile/xt8ik4u4q7d5nydhhyj61.png">
@@ -49,6 +49,9 @@
                border: 1px solid #2a3042;
                cursor: pointer;
                height: 200px;
+           }
+           .modal-content{
+            border-radius: 0 !important;
            }
         </style>
     </head>
@@ -253,7 +256,7 @@
                                                                         <div class="col-md-12">
                                                                             <div class="form-group">
                                                                                 <label for="">Description</label>
-                                                                                <textarea rows="1" name="pdesc" class="form-control br-0" placeholder="Description here.."></textarea>
+                                                                                <textarea rows="7" name="pdesc" class="form-control br-0" placeholder="Description here.."></textarea>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -506,35 +509,41 @@
                 var fileName = $(this).val().split('\\').pop();
                 var fileExtension = fileName.split('.').pop();
                 $('input[name="invoice_file_extension"]').val(fileExtension);
-                if(fileExtension == 'pdf'){
-                    $('#imagepreview').css('display','none');
-                    $('#pdfViewer').css('display','block');
-                     var file = e.target.files[0];
-                     var reader = new FileReader();
-                     reader.onload = function(e) {
-                       var pdfViewer = $('#pdfViewer');
-                       pdfViewer.empty(); // Clear previous content
-                       // Create an <embed> element to display the PDF file
-                       var embedElement = $('<embed src="' + e.target.result + '" type="application/pdf" width="100%" height="100%">');
-                       pdfViewer.append(embedElement);
-                     };
-                     reader.readAsDataURL(file);
-                }
-                else{
-                    $('#imagepreview').css('display','block');
-                    $('#pdfViewer').css('display','none');
-                    var fileInput = $(this)[0];
-                    var thumbnailImage = $('#thummb_image');
+
+                var imagePreview = $('#imagepreview');
+                var pdfViewer = $('#pdfViewer');
+                var fileInput = $(this)[0];
+                var thumbnailImage = $('#thummb_image');
+
+                if (fileExtension == 'pdf') {
+                    imagePreview.hide();
+                    pdfViewer.show();
+                    
+                    var file = e.target.files[0];
+                    var reader = new FileReader();
+                    reader.onload = function(e) {
+                    pdfViewer.empty(); // Clear previous content
+                    // Create an <embed> element to display the PDF file
+                    var embedElement = $('<embed src="' + e.target.result + '" type="application/pdf" width="100%" height="100%">');
+                    pdfViewer.append(embedElement);
+                    };
+                    reader.readAsDataURL(file);
+                } else {
+                    imagePreview.show();
+                    pdfViewer.hide();
+                    
                     if (fileInput.files && fileInput.files[0]) {
-                      var reader = new FileReader();
-                      reader.onload = function(e) {
+                    var reader = new FileReader();
+                    reader.onload = function(e) {
                         thumbnailImage.attr('src', e.target.result);
-                      };
-                      reader.readAsDataURL(fileInput.files[0]);
+                    };
+                    reader.readAsDataURL(fileInput.files[0]);
                     }
                 }
+
                 $('#pdfviewmodal').modal('show');
-              });
+            });
+
             $(function() {
                $("form[name='insert-form']").validate({
                  rules: {

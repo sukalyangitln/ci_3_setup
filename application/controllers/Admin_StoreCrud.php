@@ -27,6 +27,7 @@ class Admin_StoreCrud extends AD_Controller {
 			redirect('admin/stores');
 		else:
 			$InsertData = [
+				'admin_type' => 'STORE',
 				'store' => single_sanitize($this->input->post('store')),
 				'store_address' => single_sanitize($this->input->post('store_address')),
 				'store_mng_name' => single_sanitize($this->input->post('store_mng_name')),

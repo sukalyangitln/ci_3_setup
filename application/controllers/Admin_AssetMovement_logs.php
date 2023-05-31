@@ -42,4 +42,24 @@ class Admin_AssetMovement_logs extends AD_Controller {
 		];
        	echo json_encode($output);
 	}
+	public function datewise_form_show(){
+		$Data = [
+			'PageTitle' => 'Admin | Date Wise Asset Movement Logs',
+			'PageName' => 'Admin | Date Wise Asset Movement Logs',
+		];
+		$this->admin_view('admin_date_wise_asset_movement_logs_form',$Data);
+	}
+	public function datewise_procurement_logs(){
+		$start = convertDate($this->input->get('start')); //function is available at core_helper.php
+		$end = convertDate($this->input->get('end'));
+		$store_ids = $this->input->get('store');
+		// dd($store_ids); die;
+		$MovementData = $this->Asset_movement_timeline->get_filtered_data_store_wise($start,$end,$store_ids);
+		$Data = [
+			'PageTitle' => 'Procurement Logs',
+			'PageName' => 'Procurement Logs',
+			'MovementData' => $MovementData,
+		];
+		$this->admin_view('admin_view_store_asset_movement_log',$Data);
+	}
 }

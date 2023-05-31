@@ -93,6 +93,7 @@
                                                         <th>#</th>
                                                         <th>Sub Category</th>
                                                         <th>Main Category</th>
+                                                        <th>Asset Types</th>
                                                         <th>Action</th>
                                                     </tr>
                                                     </thead>
@@ -105,6 +106,7 @@
                                                             <td><?=$st;?></td>
                                                             <td><?=$list->scname;?></td>
                                                             <td><?=$list->cname;?></td>                                                            
+                                                            <td><?=count_asset_by_subcategory($list->scid);?></td>                                                            
                                                             <td>
                                                                 <div style="min-width:130px;">
                                                                     <a href="#" class="btn btn-info btn-sm br-0"><i class="fa fa-eye"></i></a>

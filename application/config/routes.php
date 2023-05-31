@@ -103,6 +103,8 @@ $route['admin/asset-requests/delete-rejected-request']['GET'] = 'Admin_Asset_Req
 */
 $route['admin/asset-movement-logs']['GET'] = 'Admin_AssetMovement_logs';
 $route['admin/asset-movement-logs/serverside-list']['POST'] = 'Admin_AssetMovement_logs/serverside_list';
+$route['admin/date-wise-asset-movement-logs/show-form']['GET'] = 'Admin_AssetMovement_logs/datewise_form_show';
+$route['admin/procurement-logs']['GET'] = 'Admin_AssetMovement_logs/datewise_procurement_logs';
 /*
 | -------------------------------------------------------------------------
 | Unauthorise access detecting 
@@ -121,4 +123,10 @@ $route['request-for-asset/get-assets-by-sub-category']['GET'] = 'Asset_Request_C
 $route['store/asset-requests/approved']['GET'] = 'Asset_Request_Controller/approved_requests';
 $route['store/asset-requests/processing']['GET'] = 'Asset_Request_Controller/processing_requests';
 $route['store/asset-requests/rejected']['GET'] = 'Asset_Request_Controller/rejected_requests';
+//Edit QTY and request cancellation
+$route['store/asset-requests/check-before-proceeding']['GET'] = 'Asset_Request_Controller/check_before_proceeding';
+$route['store/asset-requests/make-request-cancellation']['GET'] = 'Asset_Request_Controller/make_request_cancellation';
+$route['store/asset-requests/update-quantity']['POST'] = 'Asset_Request_Controller/update_quantity';
+$route['store/asset-movement-logs']['GET'] = 'Asset_Request_Controller/view_asset_movement_log_form';
+$route['store/procurement-logs']['GET'] = 'Asset_Request_Controller/fetch_asset_movement_log';
 

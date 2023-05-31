@@ -102,7 +102,7 @@
                                             <div class="col-md-12">
                                                 <div class="form-group">
                                                     <label for="">Description</label>
-                                                    <textarea rows="1" name="pdesc" class="form-control br-0" placeholder="Description here.."></textarea>
+                                                    <textarea rows="4" name="pdesc" class="form-control br-0" placeholder="Description here.."></textarea>
                                                 </div>
                                             </div>
                                         </div>

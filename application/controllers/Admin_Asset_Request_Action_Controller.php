@@ -59,7 +59,7 @@ class Admin_Asset_Request_Action_Controller extends AD_Controller {
 				];
 				$this->Asset_requests->updateWhere($UpdateData,$UpdateCond);
 				$amt_log_paragraph = 'Asset request reference no. '.$AssetReq_Data->ar_serial_number.' has been rejected at '.date('Y-m-d H:i:s').' for the quantity of '.$AssetReq_Data->ar_requested_qty.' of '.$AssetReq_Data->pigi_product_name;
-				insert_log_to_asset_movement_timeline_table('REQUEST_REJECTION',$amt_log_paragraph,$AssetReq_Data->ar_FK_main_category_id,$AssetReq_Data->ar_FK_sub_category_id,$AssetReq_Data->pigi_id);
+				insert_log_to_asset_movement_timeline_table('REQUEST_REJECTION',$amt_log_paragraph,$AssetReq_Data->ar_FK_main_category_id,$AssetReq_Data->ar_FK_sub_category_id,$AssetReq_Data->pigi_id,$AssetReq_Data->ar_FK_store_id);
 				flash('swal_success','Request has been successfully rejected!');
 				back();
 			else:
@@ -133,7 +133,7 @@ class Admin_Asset_Request_Action_Controller extends AD_Controller {
 				$this->Outgoing_assets->insert($Outgoing_asset_insert);
 				$this->Asset_requests->deleteWhere(['ar_id' => $ar_id]);
 				$amt_log_paragraph = strval('The store named '.$StoreData->store.' requested '.$this->input->post('actual_requested_qty').'  laptops belonging to the category "'.$CategoryData->cname.'"" and subcategory "'.$Sub_CategoryData->scname.'" on '.$AssetReq_Data->ar_requested_datetime.'. The approval for '.$this->input->post('releasing_qty').' units of the requested item was granted on '.$DateTime);
-				insert_log_to_asset_movement_timeline_table('OUTGOING',$amt_log_paragraph,$AssetReq_Data->ar_FK_main_category_id,$AssetReq_Data->ar_FK_sub_category_id,$AssetReq_Data->ar_FK_asset_id);
+				insert_log_to_asset_movement_timeline_table('OUTGOING',$amt_log_paragraph,$AssetReq_Data->ar_FK_main_category_id,$AssetReq_Data->ar_FK_sub_category_id,$AssetReq_Data->ar_FK_asset_id,$AssetReq_Data->ar_FK_asset_id);
 				flash('success',$amt_log_paragraph);
 				back();
 			else:
@@ -151,9 +151,9 @@ class Admin_Asset_Request_Action_Controller extends AD_Controller {
 
 			//-------start ASSET MOVEMENT TIMELINE INSERT
 			$amt_log_paragraph = 'A store named "'.$arData->Store_Name.'" was submitted a request for "'.$arData->ar_requested_qty.'" units of product named "'.$arData->pigi_product_name.'", falling under the category of "'.$arData->cname.'" with a specific subcategory of "'.$arData->scname.'". The reference ID associated with this request is "'.$arData->ar_serial_number.'". However, this request has been rejected and deleted. Rendering further inquiries via the reference ID unattainable.';
-			insert_log_to_asset_movement_timeline_table('REQUEST_DELETE',$amt_log_paragraph,$arData->cid,$arData->scid,$arData->pigi_id);
+			insert_log_to_asset_movement_timeline_table('REQUEST_DELETE',$amt_log_paragraph,$arData->cid,$arData->scid,$arData->pigi_id,$arData->ar_FK_store_id);
 			//-------end ASSET MOVEMENT TIMELINE INSERT
-
+			
 			$this->Asset_requests->deleteWhere(['ar_id' => $ar_id]);
 			flash('success',$amt_log_paragraph);
 			back();

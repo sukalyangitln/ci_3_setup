@@ -45,6 +45,14 @@ function AdminMenuActive(){
 		$arr['ul'] = 'store-asset-requests-rejected';
 		$arr['li'] = $first;
 	}
+	if($first == 'store' && $second == 'procurement-logs'){
+		$arr['ul'] = 'store-asset-procurement-logs';
+		$arr['li'] = $first;
+	}
+	if($first == 'store' && $second == 'asset-movement-logs'){
+		$arr['ul'] = 'store-asset-procurement-logs';
+		$arr['li'] = $first;
+	}
 	if($first == 'request-for-asset'){
 		$arr['ul'] = 'request-for-asset';
 		$arr['li'] = $first;

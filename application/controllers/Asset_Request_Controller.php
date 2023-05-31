@@ -81,32 +81,25 @@ class Asset_Request_Controller extends AD_Controller {
 			$StoreData = $this->Admin->check(['id' => UL_ID]);			
 			$AssetData = $this->Product_incomming_general_information->check(['pigi_id' => $ar_FK_asset_id]);			
 			$check_qty = get_asset_current_stock($ar_FK_asset_id);
-			if($ar_requested_qty <= $check_qty):
-				$InsertData = [
-					'ar_FK_store_id' => UL_ID,
-					'ar_serial_number' => $ar_serial_number,
-					'ar_FK_main_category_id' => $ar_FK_main_category_id,
-					'ar_FK_sub_category_id' => $ar_FK_sub_category_id,
-					'ar_FK_asset_id' => $ar_FK_asset_id,
-					'ar_requested_qty' => $ar_requested_qty,
-					'ar_remarks' => $ar_remarks,
-					'ar_requested_datetime' => $DATE_TIME,
-					'ar_status' => 'P', //{P=Processing, R=Rejected [Once it approved it will be inserted to the outgoing_assets table]}
-				];				
-				$ar_id = $this->Asset_requests->insert($InsertData);
-				$amt_log_paragraph = $StoreData->store.' submitted a request to provide '.$ar_requested_qty.' '.$AssetData->pigi_product_name.' on '.$DATE_TIME.', and is currently awaiting approval from the administration.';
-				insert_log_to_asset_movement_timeline_table('REQUEST',$amt_log_paragraph,$ar_FK_main_category_id,$ar_FK_sub_category_id,$ar_FK_asset_id);
-				
-				$res = [
-					'status' => 1,
-					'msg' => '<div class="alert alert-success" role="alert">Your request has been successfully submitted and is currently awaiting approval. Please note that your reference ID is <strong>'.$ar_serial_number.'</strong>. Kindly keep this reference ID for any future inquiries or updates regarding your request.</div>',
-				];
-			else:
-				$res = [
-					'status' => 0,
-					'msg' => '<div class="alert alert-warning" role="alert">We regret to inform you that the system cannot process your request due to insufficient quantity available to fulfill your desired quantity. Please try requesting a lower quantity.</div>',
-				];
-			endif;
+			$InsertData = [
+				'ar_FK_store_id' => UL_ID,
+				'ar_serial_number' => $ar_serial_number,
+				'ar_FK_main_category_id' => $ar_FK_main_category_id,
+				'ar_FK_sub_category_id' => $ar_FK_sub_category_id,
+				'ar_FK_asset_id' => $ar_FK_asset_id,
+				'ar_requested_qty' => $ar_requested_qty,
+				'ar_remarks' => $ar_remarks,
+				'ar_requested_datetime' => $DATE_TIME,
+				'ar_status' => 'P', //{P=Processing, R=Rejected [Once it approved it will be inserted to the outgoing_assets table]}
+			];				
+			$ar_id = $this->Asset_requests->insert($InsertData);
+			$amt_log_paragraph = $StoreData->store.' submitted a request to provide '.$ar_requested_qty.' '.$AssetData->pigi_product_name.' on '.$DATE_TIME.', and is currently awaiting approval from the administration.';
+			insert_log_to_asset_movement_timeline_table('REQUEST',$amt_log_paragraph,$ar_FK_main_category_id,$ar_FK_sub_category_id,$ar_FK_asset_id,UL_ID);
+			
+			$res = [
+				'status' => 1,
+				'msg' => '<div class="alert alert-success" role="alert">Your request has been successfully submitted and is currently awaiting approval. Please note that your reference ID is <strong>'.$ar_serial_number.'</strong>. Kindly keep this reference ID for any future inquiries or updates regarding your request.</div>',
+			];
 		endif;
 		echo json_encode($res);
 	}
@@ -146,5 +139,99 @@ class Asset_Request_Controller extends AD_Controller {
 			'requestData' => $requestData,
 		];
 		$this->admin_view('asset_request_rejected',$Data);
+	}
+	public function check_before_proceeding(){
+		$ar_id = decr($this->input->get('encr_ar_id'));
+		$arData = $this->Asset_requests->check(['ar_id' => $ar_id]);
+		if($arData):
+			if($arData->ar_status == 'P'):
+				$res = [
+					'status' => 1,
+					'msg' => 'Cancellation Possible.',
+				];
+			else:
+				$res = [
+					'status' => 0,
+					'msg' => '<div class="alert alert-danger" role="alert">The administrative team has already taken action regarding your request. The reference ID assigned to your request is <strong>'.$arData->ar_serial_number.'</strong>. Unfortunately, the cancellation operation cannot be carried out at this time. We kindly request you to refresh the page to ensure you have the most up-to-date information.</div>',
+				];
+			endif;
+		else:
+			$res = [
+				'status' => 0,
+				'msg' => '<div class="alert alert-danger" role="alert">Invalid Operation</div>',
+			];
+		endif;
+		echo json_encode($res);
+	}
+	public function make_request_cancellation(){
+		$ar_id = decr($this->input->get('cancel_encr_ar_id'));
+		$arData = $this->Asset_requests->check_req_full_possible_joining($ar_id);
+		if($arData):
+			if($arData->ar_status == 'P'):
+				$datetime = new DateTime($arData->ar_requested_datetime);
+				$Currentdatetime = new DateTime();
+				$amt_log_paragraph = 'The store "'.$arData->Store_Name.'" has submitted a request for '.$arData->ar_requested_qty.' '.$arData->pigi_product_name.' categorized under "'.$arData->cname.'" with a subcategory of "'.$arData->scname.'" on '.$datetime->format('jS F Y').', at '.$datetime->format('h:i A').'. And the reference no. was '.$arData->ar_serial_number.'. However, it appears that this order was either placed in error or is no longer required. Therefore, as of '.$Currentdatetime->format('jS F Y').', at '.$Currentdatetime->format('h:i A').', the store has taken the initiative to cancel the procurement request themselves. Rendering further inquiries via the reference ID unattainable.';
+				insert_log_to_asset_movement_timeline_table('REQUEST_CANCELLATION',$amt_log_paragraph,$arData->cid,$arData->scid,$arData->pigi_id,UL_ID);
+				$this->Asset_requests->deleteWhere(['ar_id' => $ar_id]);
+				flash('swal_success','The procurement request has been effectively canceled.');
+				back();
+			else:
+				$err_msg = 'The administrative team has already taken action regarding your request. The reference ID assigned to your request is <strong>'.$arData->ar_serial_number.'</strong>. Unfortunately, the cancellation operation cannot be carried out at this time. We kindly request you to refresh the page to ensure you have the most up-to-date information.';
+				flash('error',$err_msg);
+				back();
+			endif;
+		else:
+			flash('error','Invalid Operation');
+			back();
+		endif;
+	}
+	public function update_quantity(){
+		$ar_id = decr($this->input->post('edt_qty_encr_ar_id'));
+		$updated_qty = $this->input->post('updated_qty');
+		$arData = $this->Asset_requests->check_req_full_possible_joining($ar_id);
+		if($arData):
+			if($arData->ar_status == 'P'):
+				if($updated_qty == $arData->ar_requested_qty):
+					flash('warning','It appears that you have not made any changes to the quantity to proceed. The requested quantity and the updated quantity are identical.');
+					back();
+				else:
+					$datetime = new DateTime($arData->ar_requested_datetime);
+					$Currentdatetime = new DateTime();
+
+					$amt_log_paragraph = 'The requested quantity is updated by '.$arData->Store_Name.' for the procurement fererence no. '.$arData->ar_serial_number.'. The updated quantity is now '.$updated_qty.' and the action was taken on the date of '.$Currentdatetime->format('jS F Y').' at '.$Currentdatetime->format('h:i A');
+					insert_log_to_asset_movement_timeline_table('REQUESTED_QTY_UPDATE',$amt_log_paragraph,$arData->cid,$arData->scid,$arData->pigi_id,UL_ID);
+
+					$this->Asset_requests->updateWhere(['ar_requested_qty' => $updated_qty],['ar_id' => $ar_id]);
+					flash('swal_success','The procurement quantity has been effectively updated to '.$updated_qty);
+					back();
+				endif;
+			else:
+				$err_msg = 'The administrative team has already taken action regarding your request. The reference ID assigned to your request is <strong>'.$arData->ar_serial_number.'</strong>. Unfortunately, the cancellation operation cannot be carried out at this time. We kindly request you to refresh the page to ensure you have the most up-to-date information.';
+				flash('error',$err_msg);
+				back();
+			endif;
+		else:
+			flash('error','Invalid Operation');
+			back();
+		endif;
+	}
+	public function view_asset_movement_log_form(){
+		$Data = [
+			'PageTitle' => 'Procurement Logs',
+			'PageName' => 'Procurement Logs',
+		];
+		$this->admin_view('store_asset_movement_log_form',$Data);
+	}
+	public function fetch_asset_movement_log(){
+		$start = convertDate($this->input->get('start')); //function is available at core_helper.php
+		$end = convertDate($this->input->get('end'));
+		$MovementData = $this->Asset_movement_timeline->get_filtered_data($start,$end,$criteria=UL_ID);
+		$Data = [
+			'PageTitle' => 'Procurement Logs',
+			'PageName' => 'Procurement Logs',
+			'MovementData' => $MovementData,
+		];
+		$this->admin_view('store_asset_movement_log',$Data);
+
 	}
 }

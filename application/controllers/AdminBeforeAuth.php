@@ -4,7 +4,7 @@ class AdminBeforeAuth extends CI_Controller {
 	function __construct(){
 		parent::__construct();
 		date_default_timezone_set('Asia/Kolkata');
-		if($this->session->userdata('Efbe_ast_trk_Admin_key_') == true){			
+		if($this->session->userdata('Efbe_ast_trk_Admin_key_token') == true){			
 			return redirect('admin-dashboard');		
 		}
 		$site_dtls=GetCompanyDetails();

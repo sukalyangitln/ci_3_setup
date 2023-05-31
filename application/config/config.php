@@ -459,6 +459,7 @@ $config['csrf_exclude_uris'] = [
 	'admin/product/add-qty',
 	'admin/asset-requests/approve-a-request', //will be removed from here after testing
 	'admin/product/add', //will be removed from here after testing
+	'store/asset-requests/update-quantity', //will be removed from here after testing
 ];
 	
 

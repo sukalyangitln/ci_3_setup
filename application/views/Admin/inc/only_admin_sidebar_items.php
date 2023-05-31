@@ -20,11 +20,15 @@
         <span key="" style="margin-left: 15px;">Sub Categories</span>
     </a>
 </li>
-<li class="<?=(AdminMenuActive()['ul']=='admin-asset-movement-logs')?'menu-active':''; ?>">
-    <a href="<?=base_url('admin/asset-movement-logs');?>" class="waves-effect text-dark">
-        <img src="<?=base_url('assets/icons/folder.png');?>" alt="">
-        <span key="" style="margin-left: 15px;">Asset Movement Logs</span>
+<li class="">
+    <a href="javascript: void(0);" class="has-arrow waves-effect text-dark <?=(AdminMenuActive()['ul']=='admin-asset-movement-logs')?'menu-active':''; ?>" aria-expanded="false">
+        <img src="<?=base_url('assets/icons/cubes.png');?>" alt="">
+        <span key="" style="margin-left: 15px;">Logs</span>
     </a>
+    <ul class="sub-menu mm-collapse" aria-expanded="false" >
+        <li><a href="<?=base_url('admin/asset-movement-logs');?>" >All</a></li>
+        <li><a href="<?=base_url('admin/date-wise-asset-movement-logs/show-form');?>" >Date Wise</a></li>
+    </ul>
 </li>
 <li class="">
     <a href="javascript: void(0);" class="has-arrow waves-effect text-dark <?=(AdminMenuActive()['ul']=='admin-product-add')?'menu-active':''; ?>" aria-expanded="false">

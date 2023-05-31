@@ -128,3 +128,12 @@ function get_nos_of_subcategories(){
 	$CI->load->model('Tbl_subcategory');
 	return $CI->Tbl_subcategory->rowCount();
 }
+function get_all_stores_array(){
+	$CI =& get_instance();
+	return $CI->Admin->get(['admin_type' => 'STORE'],'store','ASC');
+}
+function count_asset_by_subcategory($pigi_sub_cat_id){
+	$CI =& get_instance();
+	$CI->load->model('Product_incomming_general_information');
+	return $CI->Product_incomming_general_information->rowFieldCountWhere(['pigi_sub_cat_id' => $pigi_sub_cat_id]);
+}

@@ -23,4 +23,10 @@
         <span key="" style="margin-left: 15px;">Rejected Requests</span>
     </a>
 </li>
+<li class="<?=(AdminMenuActive()['ul']=='store-asset-procurement-logs')?'menu-active':''; ?>">
+    <a href="<?=base_url('store/asset-movement-logs');?>" class="waves-effect text-dark">
+        <img src="<?=base_url('assets/icons/dashboard.png');?>" alt="">
+        <span key="" style="margin-left: 15px;">Procurement Logs</span>
+    </a>
+</li>
 <?php endif; ?>

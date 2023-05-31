@@ -11082,3 +11082,48 @@ DEBUG - 2023-05-30 15:39:53 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2023-05-30 15:39:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
 DEBUG - 2023-05-30 15:39:53 --> Encryption: Auto-configured driver 'openssl'.
 DEBUG - 2023-05-30 19:09:53 --> Total execution time: 0.1243
+DEBUG - 2023-05-30 15:43:37 --> UTF-8 Support Enabled
+DEBUG - 2023-05-30 15:43:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-30 15:43:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-30 15:43:37 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-30 19:13:37 --> Total execution time: 0.1878
+DEBUG - 2023-05-30 15:43:37 --> UTF-8 Support Enabled
+DEBUG - 2023-05-30 15:43:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-30 15:43:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-30 15:43:37 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-30 19:13:37 --> Total execution time: 0.0448
+DEBUG - 2023-05-30 15:43:39 --> UTF-8 Support Enabled
+DEBUG - 2023-05-30 15:43:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-30 15:43:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-30 15:43:39 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-30 19:13:39 --> Total execution time: 0.0460
+DEBUG - 2023-05-30 15:43:39 --> UTF-8 Support Enabled
+DEBUG - 2023-05-30 15:43:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-30 15:43:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-30 15:43:39 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-30 19:13:39 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-30 19:13:39 --> Total execution time: 0.0545
+DEBUG - 2023-05-30 15:43:39 --> UTF-8 Support Enabled
+DEBUG - 2023-05-30 15:43:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-30 15:43:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-30 15:43:39 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-30 19:13:40 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-30 19:13:40 --> Total execution time: 0.0534
+DEBUG - 2023-05-30 15:43:40 --> UTF-8 Support Enabled
+DEBUG - 2023-05-30 15:43:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-30 15:43:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-30 15:43:40 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-30 19:13:40 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-30 19:13:40 --> Total execution time: 0.0773
+DEBUG - 2023-05-30 15:43:41 --> UTF-8 Support Enabled
+DEBUG - 2023-05-30 15:43:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-30 15:43:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-30 15:43:41 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-30 19:13:41 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-30 19:13:41 --> Total execution time: 0.0605
+DEBUG - 2023-05-30 15:43:41 --> UTF-8 Support Enabled
+DEBUG - 2023-05-30 15:43:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-30 15:43:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-30 15:43:41 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-30 19:13:41 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-30 19:13:41 --> Total execution time: 0.0605

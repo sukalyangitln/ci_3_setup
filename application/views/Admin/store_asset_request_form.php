@@ -180,26 +180,14 @@
                             $(this).remove();
                         });
                         console.log(res);
-                        if(res.status == 1) {
-                            $('.response_msg').html(res.msg);
-                            clearForm();
-                        }
-                        if(res.status == 0) {
-                            $('.response_msg').html(res.msg);
-                        }
+                        $('.response_msg').html(res.msg);
+                        $("form[name='request-for-asset']")[0].reset();
                       }
                     });
                     return false;
                   }
                 });
               });
-             function clearForm(){
-                $('select[name="ar_FK_main_category_id"]').val('');
-                $('select[name="ar_FK_sub_category_id"]').val('');
-                $('select[name="ar_FK_asset_id"]').val('');
-                $('input[name="ar_requested_qty"]').val('');
-                $('textarea[name="ar_remarks"]').html('');
-             }
         </script>
         <script>
             <?php if($this->session->flashdata('swal_success')): ?>
