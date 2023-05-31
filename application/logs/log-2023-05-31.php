@@ -12627,3 +12627,2392 @@ DEBUG - 2023-05-31 14:32:12 --> Session: "sess_save_path" is empty; using "sessi
 DEBUG - 2023-05-31 14:32:12 --> Encryption: Auto-configured driver 'openssl'.
 DEBUG - 2023-05-31 18:02:12 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
 DEBUG - 2023-05-31 18:02:12 --> Total execution time: 0.0556
+DEBUG - 2023-05-31 14:32:17 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:32:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:32:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:32:17 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:02:17 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:02:17 --> Total execution time: 0.0480
+DEBUG - 2023-05-31 14:32:22 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:32:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:32:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:32:22 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:02:22 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:02:22 --> Total execution time: 0.0541
+DEBUG - 2023-05-31 14:32:27 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:32:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:32:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:32:27 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:02:27 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:02:27 --> Total execution time: 0.0469
+DEBUG - 2023-05-31 14:32:32 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:32:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:32:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:32:32 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:02:32 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:02:32 --> Total execution time: 0.0476
+DEBUG - 2023-05-31 14:32:35 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:32:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:32:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:32:35 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:02:35 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:02:35 --> Total execution time: 0.0459
+DEBUG - 2023-05-31 14:32:37 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:32:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:32:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:32:37 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:02:37 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:02:37 --> Total execution time: 0.0456
+DEBUG - 2023-05-31 14:32:42 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:32:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:32:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:32:42 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:02:42 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:02:42 --> Total execution time: 0.0573
+DEBUG - 2023-05-31 14:32:47 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:32:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:32:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:32:47 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:02:47 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:02:47 --> Total execution time: 0.0539
+DEBUG - 2023-05-31 14:32:52 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:32:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:32:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:32:52 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:02:52 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:02:52 --> Total execution time: 0.0459
+DEBUG - 2023-05-31 14:32:57 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:32:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:32:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:32:57 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:02:57 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:02:57 --> Total execution time: 0.0464
+DEBUG - 2023-05-31 14:33:02 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:33:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:33:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:33:02 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:03:02 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:03:02 --> Total execution time: 0.0456
+DEBUG - 2023-05-31 14:33:07 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:33:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:33:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:33:07 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:03:07 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:03:07 --> Total execution time: 0.0482
+DEBUG - 2023-05-31 14:33:12 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:33:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:33:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:33:12 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:03:12 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:03:12 --> Total execution time: 0.0500
+DEBUG - 2023-05-31 14:33:17 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:33:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:33:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:33:17 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:03:17 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:03:17 --> Total execution time: 0.0482
+DEBUG - 2023-05-31 14:33:22 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:33:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:33:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:33:22 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:03:22 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:03:22 --> Total execution time: 0.0505
+DEBUG - 2023-05-31 14:33:27 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:33:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:33:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:33:27 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:03:27 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:03:27 --> Total execution time: 0.0467
+DEBUG - 2023-05-31 14:33:32 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:33:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:33:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:33:32 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:03:32 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:03:32 --> Total execution time: 0.0484
+DEBUG - 2023-05-31 14:33:35 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:33:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:33:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:33:37 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:33:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:33:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:33:37 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:03:37 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:03:37 --> Total execution time: 0.0483
+DEBUG - 2023-05-31 14:33:42 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:33:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:33:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:33:42 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:03:42 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:03:42 --> Total execution time: 0.0487
+DEBUG - 2023-05-31 14:33:47 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:33:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:33:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:33:47 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:03:47 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:03:47 --> Total execution time: 0.0476
+DEBUG - 2023-05-31 14:33:52 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:33:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:33:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:33:52 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:03:52 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:03:52 --> Total execution time: 0.0474
+DEBUG - 2023-05-31 14:33:57 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:33:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:33:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:33:57 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:03:57 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:03:57 --> Total execution time: 0.0478
+DEBUG - 2023-05-31 14:34:02 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:34:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:34:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:34:02 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:04:02 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:04:02 --> Total execution time: 0.0482
+DEBUG - 2023-05-31 14:34:07 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:34:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:34:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:34:07 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:04:07 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:04:07 --> Total execution time: 0.0479
+DEBUG - 2023-05-31 14:34:12 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:34:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:34:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:34:12 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:04:12 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:04:12 --> Total execution time: 0.0487
+DEBUG - 2023-05-31 14:34:17 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:34:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:34:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:34:17 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:04:17 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:04:17 --> Total execution time: 0.0477
+DEBUG - 2023-05-31 14:34:22 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:34:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:34:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:34:22 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:04:22 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:04:22 --> Total execution time: 0.0480
+DEBUG - 2023-05-31 14:34:27 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:34:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:34:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:34:27 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:04:27 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:04:27 --> Total execution time: 0.0563
+DEBUG - 2023-05-31 14:34:32 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:34:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:34:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:34:32 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:04:32 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:04:32 --> Total execution time: 0.0476
+DEBUG - 2023-05-31 14:34:35 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:34:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:34:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:34:35 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:04:35 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:04:35 --> Total execution time: 0.0473
+DEBUG - 2023-05-31 14:34:37 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:34:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:34:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:34:37 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:04:37 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:04:37 --> Total execution time: 0.0477
+DEBUG - 2023-05-31 14:34:42 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:34:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:34:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:34:42 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:04:42 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:04:42 --> Total execution time: 0.0477
+DEBUG - 2023-05-31 14:34:47 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:34:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:34:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:34:47 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:04:47 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:04:47 --> Total execution time: 0.0482
+DEBUG - 2023-05-31 14:34:52 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:34:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:34:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:34:52 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:04:52 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:04:52 --> Total execution time: 0.0469
+DEBUG - 2023-05-31 14:34:57 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:34:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:34:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:34:57 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:04:57 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:04:57 --> Total execution time: 0.0475
+DEBUG - 2023-05-31 14:35:02 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:35:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:35:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:35:02 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:05:02 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:05:02 --> Total execution time: 0.0517
+DEBUG - 2023-05-31 14:35:07 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:35:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:35:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:35:07 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:05:07 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:05:07 --> Total execution time: 0.0482
+DEBUG - 2023-05-31 14:35:12 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:35:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:35:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:35:12 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:05:12 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:05:12 --> Total execution time: 0.0560
+DEBUG - 2023-05-31 14:35:17 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:35:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:35:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:35:17 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:05:17 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:05:17 --> Total execution time: 0.0655
+DEBUG - 2023-05-31 14:35:22 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:35:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:35:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:35:22 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:05:22 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:05:22 --> Total execution time: 0.0475
+DEBUG - 2023-05-31 14:35:27 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:35:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:35:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:35:27 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:05:27 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:05:27 --> Total execution time: 0.0474
+DEBUG - 2023-05-31 14:35:32 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:35:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:35:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:35:32 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:05:32 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:05:32 --> Total execution time: 0.0483
+DEBUG - 2023-05-31 14:35:35 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:35:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:35:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:35:35 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:05:35 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:05:35 --> Total execution time: 0.0533
+DEBUG - 2023-05-31 14:35:37 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:35:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:35:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:35:37 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:05:37 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:05:37 --> Total execution time: 0.0491
+DEBUG - 2023-05-31 14:35:42 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:35:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:35:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:35:42 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:05:42 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:05:42 --> Total execution time: 0.0514
+DEBUG - 2023-05-31 14:35:47 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:35:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:35:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:35:47 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:05:47 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:05:47 --> Total execution time: 0.0478
+DEBUG - 2023-05-31 14:35:52 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:35:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:35:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:35:52 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:05:52 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:05:52 --> Total execution time: 0.0482
+DEBUG - 2023-05-31 14:35:57 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:35:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:35:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:35:57 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:05:57 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:05:57 --> Total execution time: 0.0487
+DEBUG - 2023-05-31 14:36:02 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:36:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:36:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:36:02 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:06:02 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:06:02 --> Total execution time: 0.0822
+DEBUG - 2023-05-31 14:36:07 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:36:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:36:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:36:07 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:06:07 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:06:07 --> Total execution time: 0.0552
+DEBUG - 2023-05-31 14:36:12 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:36:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:36:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:36:12 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:06:12 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:06:12 --> Total execution time: 0.0544
+DEBUG - 2023-05-31 14:36:17 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:36:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:36:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:36:17 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:06:17 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:06:17 --> Total execution time: 0.0552
+DEBUG - 2023-05-31 14:36:22 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:36:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:36:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:36:22 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:06:22 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:06:22 --> Total execution time: 0.0551
+DEBUG - 2023-05-31 14:36:27 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:36:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:36:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:36:27 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:06:27 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:06:27 --> Total execution time: 0.0548
+DEBUG - 2023-05-31 14:36:32 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:36:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:36:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:36:32 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:06:32 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:06:32 --> Total execution time: 0.0530
+DEBUG - 2023-05-31 14:36:35 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:36:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:36:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:36:35 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:06:35 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:06:35 --> Total execution time: 0.0578
+DEBUG - 2023-05-31 14:36:37 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:36:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:36:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:36:37 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:06:37 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:06:37 --> Total execution time: 0.0561
+DEBUG - 2023-05-31 14:36:42 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:36:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:36:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:36:42 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:06:42 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:06:42 --> Total execution time: 0.0526
+DEBUG - 2023-05-31 14:36:47 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:36:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:36:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:36:47 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:06:47 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:06:47 --> Total execution time: 0.0556
+DEBUG - 2023-05-31 14:36:52 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:36:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:36:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:36:52 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:06:52 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:06:52 --> Total execution time: 0.0538
+DEBUG - 2023-05-31 14:36:57 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:36:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:36:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:36:57 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:06:57 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:06:57 --> Total execution time: 0.0558
+DEBUG - 2023-05-31 14:37:02 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:37:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:37:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:37:02 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:07:02 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:07:02 --> Total execution time: 0.0523
+DEBUG - 2023-05-31 14:37:07 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:37:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:37:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:37:07 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:07:07 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:07:07 --> Total execution time: 0.0517
+DEBUG - 2023-05-31 14:37:12 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:37:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:37:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:37:12 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:07:12 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:07:12 --> Total execution time: 0.0529
+DEBUG - 2023-05-31 14:37:17 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:37:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:37:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:37:17 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:07:17 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:07:17 --> Total execution time: 0.0520
+DEBUG - 2023-05-31 14:37:22 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:37:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:37:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:37:22 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:07:22 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:07:22 --> Total execution time: 0.0537
+DEBUG - 2023-05-31 14:37:27 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:37:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:37:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:37:27 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:07:27 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:07:27 --> Total execution time: 0.0531
+DEBUG - 2023-05-31 14:37:35 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:37:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:37:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:37:35 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:07:35 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:07:35 --> Total execution time: 0.0559
+DEBUG - 2023-05-31 14:37:35 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:37:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:37:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:37:35 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:07:35 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:07:35 --> Total execution time: 0.0541
+DEBUG - 2023-05-31 14:38:35 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:38:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:38:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:38:35 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:08:35 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:08:35 --> Total execution time: 0.0573
+DEBUG - 2023-05-31 14:38:35 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:38:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:38:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:38:35 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:08:35 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:08:35 --> Total execution time: 0.0527
+DEBUG - 2023-05-31 14:39:12 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:39:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:39:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:39:12 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:09:12 --> Total execution time: 0.0925
+DEBUG - 2023-05-31 14:39:13 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:39:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:39:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:39:13 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:09:13 --> Total execution time: 0.0591
+DEBUG - 2023-05-31 14:39:14 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:39:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:39:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:39:14 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:09:14 --> Total execution time: 0.0540
+DEBUG - 2023-05-31 14:39:16 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:39:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:39:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:39:16 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:09:16 --> Total execution time: 0.0514
+DEBUG - 2023-05-31 14:39:16 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:39:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:39:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:39:16 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:09:16 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:09:16 --> Total execution time: 0.1005
+DEBUG - 2023-05-31 14:39:17 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:39:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:39:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:39:17 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:09:17 --> Config file loaded: C:\xampp\htdocs\third_law\asset_tracking\application\config/qr_code.php
+DEBUG - 2023-05-31 18:09:17 --> Total execution time: 0.0722
+DEBUG - 2023-05-31 14:44:45 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:44:45 --> No URI present. Default controller set.
+DEBUG - 2023-05-31 14:44:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:44:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:44:45 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:44:45 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:44:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:44:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:44:45 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:14:45 --> Total execution time: 0.0517
+DEBUG - 2023-05-31 14:44:46 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:44:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:44:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:44:46 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:14:46 --> Total execution time: 0.0469
+DEBUG - 2023-05-31 14:44:48 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:44:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:44:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:44:48 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:14:48 --> Total execution time: 0.0403
+DEBUG - 2023-05-31 14:44:49 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:44:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:44:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:44:49 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:14:49 --> Total execution time: 0.0527
+DEBUG - 2023-05-31 14:44:50 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:44:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:44:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:44:50 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:44:51 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:44:51 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:44:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:44:51 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:14:51 --> Total execution time: 0.0553
+DEBUG - 2023-05-31 14:44:55 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:44:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:44:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:44:55 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:44:55 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:44:55 --> No URI present. Default controller set.
+DEBUG - 2023-05-31 14:44:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:44:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:44:55 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:14:55 --> Total execution time: 0.0411
+DEBUG - 2023-05-31 14:45:40 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:45:40 --> No URI present. Default controller set.
+DEBUG - 2023-05-31 14:45:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:45:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:45:40 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:15:40 --> Total execution time: 0.0438
+DEBUG - 2023-05-31 14:46:29 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:46:29 --> No URI present. Default controller set.
+DEBUG - 2023-05-31 14:46:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:46:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:46:29 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:16:29 --> Total execution time: 0.0473
+DEBUG - 2023-05-31 14:48:32 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:48:32 --> No URI present. Default controller set.
+DEBUG - 2023-05-31 14:48:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:48:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:48:32 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:18:32 --> Total execution time: 0.0413
+DEBUG - 2023-05-31 14:48:40 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:48:40 --> No URI present. Default controller set.
+DEBUG - 2023-05-31 14:48:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:48:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:48:40 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:18:40 --> Total execution time: 0.0428
+DEBUG - 2023-05-31 14:48:56 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:48:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:48:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:48:56 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:48:56 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:48:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:48:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:48:56 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:18:56 --> Total execution time: 0.0454
+DEBUG - 2023-05-31 14:48:56 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:48:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:48:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:48:56 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:18:56 --> Total execution time: 0.0461
+DEBUG - 2023-05-31 14:48:58 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:48:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:48:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:48:58 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:18:58 --> Total execution time: 0.0377
+DEBUG - 2023-05-31 14:49:00 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:49:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:49:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:49:00 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:19:00 --> Total execution time: 0.0397
+DEBUG - 2023-05-31 14:49:02 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:49:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:49:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:49:03 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:19:03 --> Total execution time: 0.0500
+DEBUG - 2023-05-31 14:49:04 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:49:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:49:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:49:04 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:19:04 --> Total execution time: 0.0415
+DEBUG - 2023-05-31 14:49:06 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:49:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:49:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:49:06 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:19:06 --> Total execution time: 0.0460
+DEBUG - 2023-05-31 14:49:06 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:49:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:49:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:49:06 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:19:06 --> Total execution time: 0.0484
+DEBUG - 2023-05-31 14:49:08 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:49:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:49:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:49:08 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:19:08 --> Total execution time: 0.0501
+DEBUG - 2023-05-31 14:49:14 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:49:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:49:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:49:14 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:49:14 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:49:14 --> No URI present. Default controller set.
+DEBUG - 2023-05-31 14:49:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:49:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:49:14 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:19:14 --> Total execution time: 0.0405
+DEBUG - 2023-05-31 14:49:16 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:49:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:49:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:49:16 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:49:16 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:49:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:49:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:49:16 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:19:16 --> Total execution time: 0.0437
+DEBUG - 2023-05-31 14:49:16 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:49:16 --> No URI present. Default controller set.
+DEBUG - 2023-05-31 14:49:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:49:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:49:16 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:49:16 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:49:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:49:16 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:49:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:49:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:49:16 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:49:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:49:16 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:49:16 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:49:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 18:19:16 --> Total execution time: 0.0513
+DEBUG - 2023-05-31 14:49:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:49:16 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:19:16 --> Total execution time: 0.0489
+DEBUG - 2023-05-31 14:49:18 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:49:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:49:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:49:18 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:19:18 --> Total execution time: 0.0478
+DEBUG - 2023-05-31 14:49:18 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:49:18 --> No URI present. Default controller set.
+DEBUG - 2023-05-31 14:49:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:49:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:49:18 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:49:18 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:49:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:49:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:49:18 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:19:18 --> Total execution time: 0.0417
+DEBUG - 2023-05-31 14:49:21 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:49:21 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:49:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:49:21 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:49:21 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:49:21 --> No URI present. Default controller set.
+DEBUG - 2023-05-31 14:49:21 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:49:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:49:21 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:19:21 --> Total execution time: 0.0409
+DEBUG - 2023-05-31 14:49:52 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:49:52 --> No URI present. Default controller set.
+DEBUG - 2023-05-31 14:49:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:49:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:49:52 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:19:52 --> Total execution time: 0.0477
+DEBUG - 2023-05-31 14:50:00 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:50:00 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:50:00 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:50:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:50:00 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:50:00 --> 404 Page Not Found: Assets/backend
+ERROR - 2023-05-31 14:50:00 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:50:00 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:50:00 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:50:00 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:50:00 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:50:00 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:50:00 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:50:00 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:50:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:50:00 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:50:00 --> 404 Page Not Found: Assets/backend
+ERROR - 2023-05-31 14:50:00 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:50:23 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:50:23 --> No URI present. Default controller set.
+DEBUG - 2023-05-31 14:50:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:50:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:50:23 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:20:23 --> Total execution time: 0.0432
+DEBUG - 2023-05-31 14:50:23 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:50:23 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:50:23 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:50:23 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:50:23 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:50:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:50:23 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:50:23 --> 404 Page Not Found: Assets/backend
+ERROR - 2023-05-31 14:50:23 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:50:23 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:50:23 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:50:23 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:50:24 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:50:24 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:50:24 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:50:24 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:50:24 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:50:24 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:50:42 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:50:42 --> No URI present. Default controller set.
+DEBUG - 2023-05-31 14:50:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:50:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:50:42 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:20:42 --> Total execution time: 0.0494
+DEBUG - 2023-05-31 14:50:42 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:50:42 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:50:42 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:50:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:50:42 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:50:42 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:50:42 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:50:42 --> 404 Page Not Found: Assets/backend
+ERROR - 2023-05-31 14:50:42 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:50:42 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:50:42 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:50:42 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:50:42 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:50:42 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:50:42 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:50:43 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:50:43 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:50:43 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:50:52 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:50:52 --> No URI present. Default controller set.
+DEBUG - 2023-05-31 14:50:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:50:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:50:52 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:20:52 --> Total execution time: 0.0413
+DEBUG - 2023-05-31 14:50:52 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:50:52 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:50:52 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:50:52 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:50:52 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:50:52 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:50:52 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:50:52 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:50:52 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:50:52 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:50:52 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:50:52 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:50:52 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:50:52 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:50:52 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:50:52 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:50:52 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:50:52 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:51:00 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:51:00 --> No URI present. Default controller set.
+DEBUG - 2023-05-31 14:51:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:51:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:51:00 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:21:00 --> Total execution time: 0.0511
+DEBUG - 2023-05-31 14:51:00 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:51:00 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:51:00 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:51:00 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:51:00 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:51:00 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:51:00 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:51:00 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:51:00 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:51:00 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:51:00 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:51:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:51:00 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:51:00 --> 404 Page Not Found: Assets/backend
+ERROR - 2023-05-31 14:51:00 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:51:00 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:51:00 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:51:00 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:51:14 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:51:14 --> No URI present. Default controller set.
+DEBUG - 2023-05-31 14:51:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:51:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:51:14 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:21:14 --> Total execution time: 0.0420
+DEBUG - 2023-05-31 14:51:14 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:51:14 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:51:14 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:51:14 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:51:14 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:51:14 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:51:14 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:51:14 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:51:14 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:51:14 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:51:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:51:14 --> UTF-8 Support Enabled
+ERROR - 2023-05-31 14:51:14 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:51:14 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:51:14 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:51:14 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:51:14 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:51:14 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:51:25 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:51:25 --> No URI present. Default controller set.
+DEBUG - 2023-05-31 14:51:25 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:51:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:51:25 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:21:26 --> Total execution time: 0.0477
+DEBUG - 2023-05-31 14:51:26 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:51:26 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:51:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:51:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:51:26 --> 404 Page Not Found: Assets/backend
+ERROR - 2023-05-31 14:51:26 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:51:26 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:51:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:51:26 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:51:26 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:51:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:51:26 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:51:26 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:51:26 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:51:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:51:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:51:26 --> 404 Page Not Found: Assets/backend
+ERROR - 2023-05-31 14:51:26 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:51:36 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:51:36 --> No URI present. Default controller set.
+DEBUG - 2023-05-31 14:51:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:51:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:51:36 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:21:36 --> Total execution time: 0.0521
+DEBUG - 2023-05-31 14:51:51 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:51:51 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:51:51 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:51:51 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:51:51 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:51:51 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:51:51 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:51:51 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:51:51 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:51:51 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:51:51 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:51:51 --> UTF-8 Support Enabled
+ERROR - 2023-05-31 14:51:51 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:51:51 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:51:51 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:51:51 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:51:51 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:51:51 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:52:05 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:05 --> No URI present. Default controller set.
+DEBUG - 2023-05-31 14:52:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:05 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:05 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:22:05 --> Total execution time: 0.0445
+DEBUG - 2023-05-31 14:52:13 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:13 --> No URI present. Default controller set.
+DEBUG - 2023-05-31 14:52:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:13 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:22:13 --> Total execution time: 0.0421
+DEBUG - 2023-05-31 14:52:21 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:21 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:21 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:52:21 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:21 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:21 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:22:21 --> Total execution time: 0.0414
+DEBUG - 2023-05-31 14:52:21 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:21 --> No URI present. Default controller set.
+DEBUG - 2023-05-31 14:52:21 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:21 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:52:21 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:21 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:21 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:21 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:21 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:52:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:21 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:22:21 --> Total execution time: 0.0449
+DEBUG - 2023-05-31 14:52:21 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:21 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:21 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:22:21 --> Total execution time: 0.0503
+DEBUG - 2023-05-31 14:52:23 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:23 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:52:23 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:23 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:22:23 --> Total execution time: 0.0385
+DEBUG - 2023-05-31 14:52:26 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:26 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:52:26 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:26 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:22:26 --> Total execution time: 0.0645
+DEBUG - 2023-05-31 14:52:29 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:29 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:52:29 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:29 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:22:29 --> Total execution time: 0.0368
+DEBUG - 2023-05-31 14:52:32 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:32 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:52:32 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:32 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:22:32 --> Total execution time: 0.0429
+DEBUG - 2023-05-31 14:52:35 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:35 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:52:35 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:35 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:22:35 --> Total execution time: 0.0510
+DEBUG - 2023-05-31 14:52:38 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:38 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:52:38 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:38 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:22:38 --> Total execution time: 0.0371
+DEBUG - 2023-05-31 14:52:41 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:41 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:52:41 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:41 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:22:41 --> Total execution time: 0.0371
+DEBUG - 2023-05-31 14:52:44 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:44 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:52:44 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:44 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:22:44 --> Total execution time: 0.0367
+DEBUG - 2023-05-31 14:52:47 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:47 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:52:47 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:47 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:22:47 --> Total execution time: 0.0378
+DEBUG - 2023-05-31 14:52:50 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:50 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:52:50 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:50 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:22:50 --> Total execution time: 0.0437
+DEBUG - 2023-05-31 14:52:53 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:53 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:52:53 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:53 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:22:53 --> Total execution time: 0.0376
+DEBUG - 2023-05-31 14:52:56 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:56 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:52:56 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 18:22:56 --> Total execution time: 0.0406
+DEBUG - 2023-05-31 14:52:59 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:59 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:52:59 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:52:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:52:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:52:59 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:22:59 --> Total execution time: 0.0376
+DEBUG - 2023-05-31 14:53:02 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:02 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:53:02 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:02 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:23:02 --> Total execution time: 0.0374
+DEBUG - 2023-05-31 14:53:05 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:05 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:05 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:53:05 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:05 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:05 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:23:05 --> Total execution time: 0.0379
+DEBUG - 2023-05-31 14:53:08 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:08 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:53:08 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:08 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:23:08 --> Total execution time: 0.0452
+DEBUG - 2023-05-31 14:53:11 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:11 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:53:11 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:11 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:23:11 --> Total execution time: 0.0400
+DEBUG - 2023-05-31 14:53:14 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:14 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:53:14 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:14 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:23:14 --> Total execution time: 0.0385
+DEBUG - 2023-05-31 14:53:17 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:17 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:53:17 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:17 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:23:17 --> Total execution time: 0.0362
+DEBUG - 2023-05-31 14:53:20 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:20 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:53:20 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:20 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:23:20 --> Total execution time: 0.0382
+DEBUG - 2023-05-31 14:53:23 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:23 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:53:23 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:23 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:23:23 --> Total execution time: 0.0371
+DEBUG - 2023-05-31 14:53:26 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:26 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:53:26 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:26 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:23:26 --> Total execution time: 0.0366
+DEBUG - 2023-05-31 14:53:29 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:29 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:53:29 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:29 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:23:29 --> Total execution time: 0.0369
+DEBUG - 2023-05-31 14:53:32 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:32 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:53:32 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:32 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:23:32 --> Total execution time: 0.0378
+DEBUG - 2023-05-31 14:53:35 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:35 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:53:35 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:35 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:23:35 --> Total execution time: 0.0373
+DEBUG - 2023-05-31 14:53:37 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:37 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:53:37 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:37 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:23:37 --> Total execution time: 0.0511
+DEBUG - 2023-05-31 14:53:38 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:38 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:23:38 --> Total execution time: 0.0695
+DEBUG - 2023-05-31 14:53:38 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:38 --> No URI present. Default controller set.
+DEBUG - 2023-05-31 14:53:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:38 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:53:38 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:38 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:38 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:53:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:38 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:53:38 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 18:23:38 --> Total execution time: 0.0452
+DEBUG - 2023-05-31 14:53:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:38 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:23:38 --> Total execution time: 0.0422
+DEBUG - 2023-05-31 14:53:40 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:40 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:53:40 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:40 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:23:40 --> Total execution time: 0.0388
+DEBUG - 2023-05-31 14:53:42 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:42 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:53:42 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:42 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:23:42 --> Total execution time: 0.0440
+DEBUG - 2023-05-31 14:53:43 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:43 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:23:44 --> Total execution time: 0.0898
+DEBUG - 2023-05-31 14:53:44 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:44 --> No URI present. Default controller set.
+DEBUG - 2023-05-31 14:53:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:44 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:53:44 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:44 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:44 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:53:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:44 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:44 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:53:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 18:23:44 --> Total execution time: 0.0512
+DEBUG - 2023-05-31 14:53:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:44 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:23:44 --> Total execution time: 0.0530
+DEBUG - 2023-05-31 14:53:46 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:46 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:53:46 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:46 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:23:46 --> Total execution time: 0.0390
+DEBUG - 2023-05-31 14:53:48 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:48 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:53:48 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:48 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:23:48 --> Total execution time: 0.0409
+DEBUG - 2023-05-31 14:53:50 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:50 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:53:50 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:50 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:23:50 --> Total execution time: 0.0368
+DEBUG - 2023-05-31 14:53:52 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:52 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:53:52 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:52 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:23:52 --> Total execution time: 0.0382
+DEBUG - 2023-05-31 14:53:54 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:54 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:53:54 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:54 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:23:54 --> Total execution time: 0.0383
+DEBUG - 2023-05-31 14:53:56 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:56 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:53:56 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:56 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:23:56 --> Total execution time: 0.0359
+DEBUG - 2023-05-31 14:53:58 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:58 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:53:58 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:53:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:53:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:53:58 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:23:58 --> Total execution time: 0.0381
+DEBUG - 2023-05-31 14:54:00 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:54:00 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:54:00 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:54:00 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:24:00 --> Total execution time: 0.0374
+DEBUG - 2023-05-31 14:54:02 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:54:02 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:54:02 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:54:02 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:24:02 --> Total execution time: 0.0379
+DEBUG - 2023-05-31 14:54:04 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:54:04 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:54:04 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:54:04 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:24:04 --> Total execution time: 0.0535
+DEBUG - 2023-05-31 14:54:06 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:54:06 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:54:06 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:54:06 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:24:06 --> Total execution time: 0.0361
+DEBUG - 2023-05-31 14:54:08 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:54:08 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:54:08 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:54:08 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:24:08 --> Total execution time: 0.0377
+DEBUG - 2023-05-31 14:54:10 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:54:10 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:54:10 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:54:10 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:24:10 --> Total execution time: 0.0420
+DEBUG - 2023-05-31 14:54:12 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:54:12 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:54:12 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:54:12 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:24:12 --> Total execution time: 0.0379
+DEBUG - 2023-05-31 14:54:14 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:54:14 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:54:14 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:54:14 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:24:14 --> Total execution time: 0.0452
+DEBUG - 2023-05-31 14:54:16 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:54:16 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:54:16 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:54:16 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:24:16 --> Total execution time: 0.0377
+DEBUG - 2023-05-31 14:54:18 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:54:18 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:54:18 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:54:18 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:24:18 --> Total execution time: 0.0364
+DEBUG - 2023-05-31 14:54:20 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:54:20 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:54:20 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:54:20 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:24:20 --> Total execution time: 0.0386
+DEBUG - 2023-05-31 14:54:22 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:54:22 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:54:22 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:54:22 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:24:22 --> Total execution time: 0.0384
+DEBUG - 2023-05-31 14:54:23 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:23 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:54:23 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:54:23 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:23 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:23 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:23 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:54:23 --> 404 Page Not Found: Assets/backend
+ERROR - 2023-05-31 14:54:23 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:54:23 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:23 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:54:23 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:54:23 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:54:23 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:54:24 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:24 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:24 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:24 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:54:24 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:54:24 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:54:24 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:54:24 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:54:24 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:54:24 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:54:24 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:54:24 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:54:24 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:24:24 --> Total execution time: 0.0376
+DEBUG - 2023-05-31 14:54:26 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:54:26 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:54:26 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:54:26 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:24:26 --> Total execution time: 0.0482
+DEBUG - 2023-05-31 14:54:28 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:28 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:54:28 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:54:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 18:24:28 --> Total execution time: 0.0749
+DEBUG - 2023-05-31 14:54:28 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:54:28 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:28 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:28 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:28 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:54:28 --> 404 Page Not Found: Assets/backend
+ERROR - 2023-05-31 14:54:28 --> 404 Page Not Found: Assets/backend
+ERROR - 2023-05-31 14:54:28 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:54:28 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:28 --> No URI present. Default controller set.
+DEBUG - 2023-05-31 14:54:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:54:28 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:54:28 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:28 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:54:28 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:54:28 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:54:28 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:28 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:54:28 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:54:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:54:28 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:24:28 --> Total execution time: 0.0518
+DEBUG - 2023-05-31 14:54:28 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:28 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:54:28 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:54:28 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:28 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:54:28 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:54:28 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:54:28 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:54:28 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:55:23 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:55:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:55:23 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:25:23 --> Total execution time: 0.0487
+DEBUG - 2023-05-31 14:55:23 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:55:23 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:23 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:55:23 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:55:23 --> 404 Page Not Found: Assets/backend
+ERROR - 2023-05-31 14:55:23 --> 404 Page Not Found: Assets/backend
+ERROR - 2023-05-31 14:55:23 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:55:23 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:23 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:55:23 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:55:23 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:23 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:55:23 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:55:23 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:23 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:55:23 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:55:23 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:23 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:55:23 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:55:23 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:23 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:55:23 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:55:26 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:55:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:55:26 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:25:26 --> Total execution time: 0.0456
+DEBUG - 2023-05-31 14:55:26 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:26 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:55:26 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:55:26 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:55:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:55:26 --> 404 Page Not Found: Assets/backend
+ERROR - 2023-05-31 14:55:26 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:55:26 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:55:26 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:55:26 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:26 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:55:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:55:26 --> 404 Page Not Found: Assets/backend
+ERROR - 2023-05-31 14:55:26 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:55:26 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:55:26 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:55:26 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:55:26 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:55:29 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:55:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:55:29 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:25:29 --> Total execution time: 0.0498
+DEBUG - 2023-05-31 14:55:30 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:30 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:30 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:55:30 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:55:30 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:55:30 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:55:30 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:30 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:55:30 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:55:30 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:30 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:55:30 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:55:30 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:30 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:55:30 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:55:30 --> 404 Page Not Found: Assets/backend
+ERROR - 2023-05-31 14:55:30 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:55:30 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:30 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:55:30 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:55:30 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:30 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:55:30 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:55:31 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:55:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:55:31 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:55:31 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:31 --> No URI present. Default controller set.
+DEBUG - 2023-05-31 14:55:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:55:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:55:31 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:25:31 --> Total execution time: 0.0417
+DEBUG - 2023-05-31 14:55:31 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:31 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:55:31 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:55:31 --> 404 Page Not Found: Assets/backend
+ERROR - 2023-05-31 14:55:31 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:55:31 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:31 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:31 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:55:31 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:55:31 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:55:31 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:55:31 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:31 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:55:31 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:55:31 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:31 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:55:31 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:55:35 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:55:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:55:35 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:55:35 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:55:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:55:35 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:25:35 --> Total execution time: 0.0475
+DEBUG - 2023-05-31 14:55:35 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:35 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:55:35 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:55:35 --> 404 Page Not Found: Assets/backend
+ERROR - 2023-05-31 14:55:35 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:55:35 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:35 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:55:35 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:55:35 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:35 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:35 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:55:35 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:55:35 --> 404 Page Not Found: Assets/backend
+ERROR - 2023-05-31 14:55:35 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:55:35 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:55:35 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:55:35 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:35 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:55:35 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:55:35 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:35 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:55:35 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-05-31 14:55:35 --> 404 Page Not Found: Assets/backend
+DEBUG - 2023-05-31 14:55:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:55:35 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:25:35 --> Total execution time: 0.0660
+DEBUG - 2023-05-31 14:55:37 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:55:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:55:37 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:25:37 --> Total execution time: 0.0394
+DEBUG - 2023-05-31 14:55:39 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:55:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:55:39 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:25:39 --> Total execution time: 0.0516
+DEBUG - 2023-05-31 14:55:41 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:55:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:55:41 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:25:41 --> Total execution time: 0.0400
+DEBUG - 2023-05-31 14:55:43 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:55:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:55:43 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:25:43 --> Total execution time: 0.0475
+DEBUG - 2023-05-31 14:55:44 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:55:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:55:44 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:25:44 --> Total execution time: 0.0443
+DEBUG - 2023-05-31 14:55:46 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:55:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:55:46 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:25:46 --> Total execution time: 0.0389
+DEBUG - 2023-05-31 14:55:48 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:55:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:55:48 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:25:48 --> Total execution time: 0.0383
+DEBUG - 2023-05-31 14:55:50 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:55:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:55:50 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:25:50 --> Total execution time: 0.0396
+DEBUG - 2023-05-31 14:55:52 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:55:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:55:52 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:25:52 --> Total execution time: 0.0377
+DEBUG - 2023-05-31 14:55:54 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:55:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:55:54 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:25:54 --> Total execution time: 0.0386
+DEBUG - 2023-05-31 14:55:56 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:55:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:55:56 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:25:56 --> Total execution time: 0.0376
+DEBUG - 2023-05-31 14:55:58 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:55:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:55:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:55:58 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:25:58 --> Total execution time: 0.0385
+DEBUG - 2023-05-31 14:56:00 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:56:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:56:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:56:00 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:26:00 --> Total execution time: 0.0375
+DEBUG - 2023-05-31 14:56:02 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:56:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:56:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:56:02 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:26:02 --> Total execution time: 0.0376
+DEBUG - 2023-05-31 14:56:04 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:56:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:56:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:56:04 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:26:04 --> Total execution time: 0.0505
+DEBUG - 2023-05-31 14:56:06 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:56:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:56:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:56:06 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:26:06 --> Total execution time: 0.0375
+DEBUG - 2023-05-31 14:56:08 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:56:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:56:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:56:08 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:26:08 --> Total execution time: 0.0379
+DEBUG - 2023-05-31 14:56:10 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:56:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:56:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:56:10 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:26:10 --> Total execution time: 0.0406
+DEBUG - 2023-05-31 14:56:12 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:56:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:56:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:56:12 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:26:12 --> Total execution time: 0.0598
+DEBUG - 2023-05-31 14:56:14 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:56:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:56:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:56:14 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:26:14 --> Total execution time: 0.0413
+DEBUG - 2023-05-31 14:56:16 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:56:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:56:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:56:16 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:26:16 --> Total execution time: 0.0376
+DEBUG - 2023-05-31 14:56:18 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:56:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:56:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:56:18 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:26:18 --> Total execution time: 0.0375
+DEBUG - 2023-05-31 14:56:20 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:56:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:56:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:56:20 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:26:20 --> Total execution time: 0.0386
+DEBUG - 2023-05-31 14:56:22 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:56:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:56:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:56:22 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:26:22 --> Total execution time: 0.0388
+DEBUG - 2023-05-31 14:56:24 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:56:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:56:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:56:24 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:26:24 --> Total execution time: 0.0379
+DEBUG - 2023-05-31 14:56:26 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:56:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:56:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:56:26 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:26:26 --> Total execution time: 0.0380
+DEBUG - 2023-05-31 14:56:28 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:56:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:56:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:56:28 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:26:28 --> Total execution time: 0.0385
+DEBUG - 2023-05-31 14:56:30 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:56:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:56:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:56:30 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:56:32 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:56:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:56:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:56:32 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:26:32 --> Total execution time: 0.0380
+DEBUG - 2023-05-31 14:56:34 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:56:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:56:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:56:34 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:56:36 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:56:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:56:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:56:36 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:26:36 --> Total execution time: 0.0375
+DEBUG - 2023-05-31 14:56:38 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:56:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:56:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:56:38 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:56:40 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:56:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:56:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:56:40 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:26:40 --> Total execution time: 0.0376
+DEBUG - 2023-05-31 14:56:42 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:56:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:56:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:56:42 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 14:56:44 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:56:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:56:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:56:44 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:26:44 --> Total execution time: 0.0377
+DEBUG - 2023-05-31 14:56:46 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:56:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:56:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:56:46 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:26:46 --> Total execution time: 0.0385
+DEBUG - 2023-05-31 14:56:48 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:56:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:56:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:56:48 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:26:48 --> Total execution time: 0.0376
+DEBUG - 2023-05-31 14:56:50 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:56:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:56:50 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:26:50 --> Total execution time: 0.0385
+DEBUG - 2023-05-31 14:56:52 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:56:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:56:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:56:52 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:26:52 --> Total execution time: 0.0375
+DEBUG - 2023-05-31 14:56:54 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:56:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:56:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:56:54 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:26:54 --> Total execution time: 0.0389
+DEBUG - 2023-05-31 14:56:56 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:56:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:56:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:56:56 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:26:56 --> Total execution time: 0.0377
+DEBUG - 2023-05-31 14:56:58 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:56:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:56:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:56:58 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:26:58 --> Total execution time: 0.0375
+DEBUG - 2023-05-31 14:57:00 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:57:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:57:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:57:00 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:27:00 --> Total execution time: 0.0382
+DEBUG - 2023-05-31 14:57:02 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:57:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:57:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:57:02 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:27:02 --> Total execution time: 0.0383
+DEBUG - 2023-05-31 14:57:04 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:57:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:57:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:57:04 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:27:04 --> Total execution time: 0.0385
+DEBUG - 2023-05-31 14:57:06 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:57:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:57:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:57:06 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:27:06 --> Total execution time: 0.0376
+DEBUG - 2023-05-31 14:57:08 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:57:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:57:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:57:08 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:27:08 --> Total execution time: 0.0453
+DEBUG - 2023-05-31 14:57:10 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:57:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:57:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:57:10 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:27:10 --> Total execution time: 0.0376
+DEBUG - 2023-05-31 14:57:12 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:57:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:57:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:57:12 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:27:12 --> Total execution time: 0.0376
+DEBUG - 2023-05-31 14:57:14 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:57:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:57:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:57:14 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:27:14 --> Total execution time: 0.0374
+DEBUG - 2023-05-31 14:57:16 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:57:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:57:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:57:16 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:27:16 --> Total execution time: 0.0377
+DEBUG - 2023-05-31 14:57:18 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:57:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:57:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:57:18 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:27:18 --> Total execution time: 0.0377
+DEBUG - 2023-05-31 14:57:20 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:57:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:57:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:57:20 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:27:20 --> Total execution time: 0.0377
+DEBUG - 2023-05-31 14:57:22 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:57:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:57:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:57:22 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:27:22 --> Total execution time: 0.0380
+DEBUG - 2023-05-31 14:57:24 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:57:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:57:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:57:24 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:27:24 --> Total execution time: 0.0377
+DEBUG - 2023-05-31 14:57:26 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:57:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:57:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:57:26 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:27:26 --> Total execution time: 0.0378
+DEBUG - 2023-05-31 14:57:28 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:57:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:57:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:57:28 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:27:28 --> Total execution time: 0.0383
+DEBUG - 2023-05-31 14:57:30 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:57:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:57:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:57:30 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:27:30 --> Total execution time: 0.0379
+DEBUG - 2023-05-31 14:57:32 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:57:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:57:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:57:32 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:27:32 --> Total execution time: 0.0380
+DEBUG - 2023-05-31 14:57:34 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:57:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:57:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:57:34 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:27:34 --> Total execution time: 0.0381
+DEBUG - 2023-05-31 14:57:36 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:57:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:57:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:57:36 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:27:36 --> Total execution time: 0.0380
+DEBUG - 2023-05-31 14:57:38 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:57:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:57:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:57:38 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:27:38 --> Total execution time: 0.0393
+DEBUG - 2023-05-31 14:57:40 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:57:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:57:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:57:40 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:27:40 --> Total execution time: 0.0386
+DEBUG - 2023-05-31 14:57:42 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:57:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:57:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:57:42 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:27:42 --> Total execution time: 0.0390
+DEBUG - 2023-05-31 14:57:44 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:57:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:57:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:57:44 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:27:44 --> Total execution time: 0.0378
+DEBUG - 2023-05-31 14:57:46 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:57:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:57:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:57:46 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:27:46 --> Total execution time: 0.0389
+DEBUG - 2023-05-31 14:57:48 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:57:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:57:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:57:48 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:27:48 --> Total execution time: 0.0388
+DEBUG - 2023-05-31 14:57:50 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:57:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:57:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:57:50 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:27:50 --> Total execution time: 0.0398
+DEBUG - 2023-05-31 14:57:52 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:57:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:57:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:57:52 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:27:52 --> Total execution time: 0.0377
+DEBUG - 2023-05-31 14:57:54 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:57:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:57:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:57:54 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:27:54 --> Total execution time: 0.0388
+DEBUG - 2023-05-31 14:57:56 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:57:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:57:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:57:56 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:27:56 --> Total execution time: 0.0377
+DEBUG - 2023-05-31 14:57:58 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:57:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:57:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:57:58 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:27:58 --> Total execution time: 0.0379
+DEBUG - 2023-05-31 14:58:00 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:58:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:58:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:58:00 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:28:00 --> Total execution time: 0.0383
+DEBUG - 2023-05-31 14:58:02 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:58:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:58:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:58:02 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:28:02 --> Total execution time: 0.0380
+DEBUG - 2023-05-31 14:58:04 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:58:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:58:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:58:04 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:28:04 --> Total execution time: 0.0377
+DEBUG - 2023-05-31 14:58:06 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:58:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:58:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:58:06 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:28:06 --> Total execution time: 0.0416
+DEBUG - 2023-05-31 14:58:08 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:58:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:58:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:58:08 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:28:08 --> Total execution time: 0.0377
+DEBUG - 2023-05-31 14:58:10 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:58:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:58:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:58:10 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:28:10 --> Total execution time: 0.0377
+DEBUG - 2023-05-31 14:58:12 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:58:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:58:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:58:12 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:28:12 --> Total execution time: 0.0374
+DEBUG - 2023-05-31 14:58:14 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:58:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:58:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:58:14 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:28:14 --> Total execution time: 0.0378
+DEBUG - 2023-05-31 14:58:16 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:58:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:58:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:58:16 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:28:16 --> Total execution time: 0.0379
+DEBUG - 2023-05-31 14:58:18 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:58:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:58:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:58:18 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:28:18 --> Total execution time: 0.0382
+DEBUG - 2023-05-31 14:58:20 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:58:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:58:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:58:20 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:28:21 --> Total execution time: 0.0417
+DEBUG - 2023-05-31 14:58:22 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:58:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:58:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:58:22 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:28:23 --> Total execution time: 0.0386
+DEBUG - 2023-05-31 14:58:24 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:58:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:58:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:58:25 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:28:25 --> Total execution time: 0.0386
+DEBUG - 2023-05-31 14:58:26 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:58:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:58:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:58:27 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:28:27 --> Total execution time: 0.0379
+DEBUG - 2023-05-31 14:58:28 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:58:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:58:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:58:29 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:28:29 --> Total execution time: 0.0378
+DEBUG - 2023-05-31 14:58:30 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:58:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:58:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:58:31 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:28:31 --> Total execution time: 0.0383
+DEBUG - 2023-05-31 14:58:32 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:58:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:58:33 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:58:33 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:28:33 --> Total execution time: 0.0387
+DEBUG - 2023-05-31 14:58:35 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:58:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:58:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:58:35 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:28:35 --> Total execution time: 0.0385
+DEBUG - 2023-05-31 14:58:37 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:58:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:58:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:58:37 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:28:37 --> Total execution time: 0.0380
+DEBUG - 2023-05-31 14:58:39 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:58:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:58:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:58:39 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:28:39 --> Total execution time: 0.0396
+DEBUG - 2023-05-31 14:58:41 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:58:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:58:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:58:41 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:28:41 --> Total execution time: 0.0379
+DEBUG - 2023-05-31 14:58:43 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:58:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:58:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:58:43 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:28:43 --> Total execution time: 0.0473
+DEBUG - 2023-05-31 14:58:45 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:58:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:58:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:58:45 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:28:45 --> Total execution time: 0.0388
+DEBUG - 2023-05-31 14:58:47 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:58:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:58:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:58:47 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:28:47 --> Total execution time: 0.0377
+DEBUG - 2023-05-31 14:58:49 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:58:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:58:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:58:49 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:28:49 --> Total execution time: 0.0387
+DEBUG - 2023-05-31 14:58:51 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:58:51 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:58:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:58:51 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:28:51 --> Total execution time: 0.0376
+DEBUG - 2023-05-31 14:58:53 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:58:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:58:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:58:53 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:28:53 --> Total execution time: 0.0377
+DEBUG - 2023-05-31 14:58:55 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:58:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:58:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:58:55 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:28:55 --> Total execution time: 0.0387
+DEBUG - 2023-05-31 14:58:57 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:58:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:58:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:58:57 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:28:57 --> Total execution time: 0.0386
+DEBUG - 2023-05-31 14:58:59 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:58:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:58:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:58:59 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:28:59 --> Total execution time: 0.0448
+DEBUG - 2023-05-31 14:59:01 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:59:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:59:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:59:01 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:29:01 --> Total execution time: 0.0447
+DEBUG - 2023-05-31 14:59:03 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:59:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:59:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:59:03 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:29:03 --> Total execution time: 0.0391
+DEBUG - 2023-05-31 14:59:05 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:59:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:59:05 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:59:05 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:29:05 --> Total execution time: 0.0377
+DEBUG - 2023-05-31 14:59:07 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:59:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:59:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:59:07 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:29:07 --> Total execution time: 0.0377
+DEBUG - 2023-05-31 14:59:09 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:59:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:59:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:59:09 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:29:09 --> Total execution time: 0.0376
+DEBUG - 2023-05-31 14:59:11 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:59:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:59:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:59:11 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:29:11 --> Total execution time: 0.0379
+DEBUG - 2023-05-31 14:59:13 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:59:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:59:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:59:13 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:29:13 --> Total execution time: 0.0393
+DEBUG - 2023-05-31 14:59:15 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:59:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:59:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:59:15 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:29:15 --> Total execution time: 0.0378
+DEBUG - 2023-05-31 14:59:17 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:59:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:59:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:59:17 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:29:17 --> Total execution time: 0.0387
+DEBUG - 2023-05-31 14:59:19 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:59:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:59:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:59:19 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:29:19 --> Total execution time: 0.0384
+DEBUG - 2023-05-31 14:59:21 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:59:21 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:59:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:59:21 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:29:21 --> Total execution time: 0.0385
+DEBUG - 2023-05-31 14:59:23 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:59:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:59:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:59:23 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:29:23 --> Total execution time: 0.0468
+DEBUG - 2023-05-31 14:59:25 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:59:25 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:59:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:59:25 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:29:25 --> Total execution time: 0.0391
+DEBUG - 2023-05-31 14:59:27 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:59:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:59:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:59:27 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:29:27 --> Total execution time: 0.0378
+DEBUG - 2023-05-31 14:59:29 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:59:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:59:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:59:29 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:29:29 --> Total execution time: 0.0382
+DEBUG - 2023-05-31 14:59:31 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:59:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:59:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:59:31 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:29:31 --> Total execution time: 0.0705
+DEBUG - 2023-05-31 14:59:33 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:59:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:59:33 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:59:33 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:29:33 --> Total execution time: 0.0387
+DEBUG - 2023-05-31 14:59:35 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:59:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:59:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:59:35 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:29:35 --> Total execution time: 0.0375
+DEBUG - 2023-05-31 14:59:37 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:59:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:59:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:59:37 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:29:37 --> Total execution time: 0.0403
+DEBUG - 2023-05-31 14:59:39 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:59:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:59:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:59:39 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:29:39 --> Total execution time: 0.0443
+DEBUG - 2023-05-31 14:59:41 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:59:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:59:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:59:41 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:29:41 --> Total execution time: 0.0410
+DEBUG - 2023-05-31 14:59:43 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:59:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:59:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:59:43 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:29:43 --> Total execution time: 0.0458
+DEBUG - 2023-05-31 14:59:45 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:59:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:59:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:59:45 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:29:45 --> Total execution time: 0.0378
+DEBUG - 2023-05-31 14:59:47 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:59:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:59:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:59:47 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:29:47 --> Total execution time: 0.0436
+DEBUG - 2023-05-31 14:59:49 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:59:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:59:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:59:49 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:29:49 --> Total execution time: 0.0402
+DEBUG - 2023-05-31 14:59:51 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:59:51 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:59:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:59:51 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:29:51 --> Total execution time: 0.0448
+DEBUG - 2023-05-31 14:59:53 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:59:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:59:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:59:53 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:29:53 --> Total execution time: 0.0393
+DEBUG - 2023-05-31 14:59:55 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:59:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:59:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:59:55 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:29:55 --> Total execution time: 0.0402
+DEBUG - 2023-05-31 14:59:56 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 14:59:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 14:59:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 14:59:56 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:29:56 --> Total execution time: 0.0484
+DEBUG - 2023-05-31 15:00:44 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 15:00:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 15:00:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 15:00:44 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 18:30:44 --> Total execution time: 0.0497
+DEBUG - 2023-05-31 15:45:41 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 15:45:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 15:45:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 15:45:41 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 19:15:41 --> Total execution time: 0.0597
+DEBUG - 2023-05-31 15:45:41 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 15:45:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 15:45:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 15:45:41 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 19:15:41 --> Total execution time: 0.0473
+DEBUG - 2023-05-31 15:45:43 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 15:45:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 15:45:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 15:45:43 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 19:15:43 --> Total execution time: 0.0379
+DEBUG - 2023-05-31 15:45:45 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 15:45:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 15:45:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 15:45:45 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 19:15:45 --> Total execution time: 0.0426
+DEBUG - 2023-05-31 15:45:47 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 15:45:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 15:45:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 15:45:47 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 19:15:47 --> Total execution time: 0.0376
+DEBUG - 2023-05-31 15:45:49 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 15:45:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 15:45:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 15:45:49 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 19:15:49 --> Total execution time: 0.0374
+DEBUG - 2023-05-31 15:45:51 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 15:45:51 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 15:45:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 15:45:51 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 19:15:51 --> Total execution time: 0.0410
+DEBUG - 2023-05-31 15:45:53 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 15:45:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 15:45:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 15:45:53 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 19:15:53 --> Total execution time: 0.0492
+DEBUG - 2023-05-31 15:45:56 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 15:45:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 15:45:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 15:45:56 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 15:45:56 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 15:45:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 15:45:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 15:45:56 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 19:15:56 --> Total execution time: 0.0522
+DEBUG - 2023-05-31 15:45:58 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 15:45:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 15:45:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 15:45:58 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 19:15:58 --> Total execution time: 0.0507
+DEBUG - 2023-05-31 15:46:07 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 15:46:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 15:46:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 15:46:07 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 19:16:07 --> Total execution time: 0.0463
+DEBUG - 2023-05-31 15:46:11 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 15:46:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 15:46:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 15:46:11 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 15:46:11 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 15:46:11 --> No URI present. Default controller set.
+DEBUG - 2023-05-31 15:46:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 15:46:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 15:46:11 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 19:16:11 --> Total execution time: 0.0407
+DEBUG - 2023-05-31 15:46:13 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 15:46:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 15:46:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 15:46:14 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 15:46:14 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 15:46:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 15:46:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 15:46:14 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 19:16:14 --> Total execution time: 0.0416
+DEBUG - 2023-05-31 15:46:21 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 15:46:21 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 15:46:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 15:46:21 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 19:16:21 --> Total execution time: 0.0476
+DEBUG - 2023-05-31 15:46:23 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 15:46:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 15:46:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 15:46:23 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 19:16:23 --> Total execution time: 0.0494
+DEBUG - 2023-05-31 15:46:24 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 15:46:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 15:46:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 15:46:24 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 19:16:24 --> Total execution time: 0.0505
+DEBUG - 2023-05-31 15:46:26 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 15:46:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 15:46:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 15:46:26 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 19:16:26 --> Total execution time: 0.0477
+DEBUG - 2023-05-31 15:46:27 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 15:46:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 15:46:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 15:46:27 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 19:16:27 --> Total execution time: 0.0480
+DEBUG - 2023-05-31 15:46:28 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 15:46:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 15:46:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 15:46:28 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 19:16:28 --> Total execution time: 0.0464
+DEBUG - 2023-05-31 15:46:29 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 15:46:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 15:46:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 15:46:29 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 19:16:29 --> Total execution time: 0.0465
+DEBUG - 2023-05-31 15:46:33 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 15:46:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 15:46:33 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 15:46:33 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 19:16:33 --> Total execution time: 0.0460
+DEBUG - 2023-05-31 15:46:33 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 15:46:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 15:46:33 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 15:46:33 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 19:16:33 --> Total execution time: 0.0506
+DEBUG - 2023-05-31 15:46:34 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 15:46:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 15:46:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 15:46:34 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 19:16:34 --> Total execution time: 0.0485
+DEBUG - 2023-05-31 15:46:43 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 15:46:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 15:46:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 15:46:43 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 19:16:43 --> Total execution time: 0.0471
+DEBUG - 2023-05-31 15:48:01 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 15:48:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 15:48:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 15:48:01 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 19:18:01 --> Total execution time: 0.0470
+DEBUG - 2023-05-31 15:48:34 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 15:48:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 15:48:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 15:48:34 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 19:18:34 --> Total execution time: 0.0442
+DEBUG - 2023-05-31 15:48:35 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 15:48:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 15:48:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 15:48:35 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 19:18:35 --> Total execution time: 0.0477
+DEBUG - 2023-05-31 15:48:38 --> UTF-8 Support Enabled
+DEBUG - 2023-05-31 15:48:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-05-31 15:48:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-05-31 15:48:38 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2023-05-31 19:18:38 --> Total execution time: 0.0462

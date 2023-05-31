@@ -4,10 +4,10 @@
         <meta charset="utf-8" />
         <title>Login | <?=SITE_NAME;?></title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
-        <meta content="Dinesh Barman" name="Dinesh Barman" />
+        <meta content="<?=SITE_NAME;?>" name="description" />
+        <meta content="Third Law Media" name="Third Law Media" />
         <!-- App favicon -->
-        <link rel="shortcut icon" href="<?=base_url('assets/backend');?>/images/favicon.ico">
+        <link rel="shortcut icon" href="<?=base_url().SITE_FAV;?>">
         <!-- Bootstrap Css -->
         <link href="<?=base_url('assets/backend');?>/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
         <!-- Icons Css -->
@@ -26,32 +26,12 @@
                                     <div class="col-7">
                                         <div class="text-primary p-4">
                                             <h5 class="text-primary">Welcome Back !</h5>
-                                            <p>Sign in to continue to <?=SITE_NAME;?>.</p>
+                                            <img src="<?=base_url().SITE_LOGO;?>" alt="" class="img fluid" height="34">
                                         </div>
-                                    </div>
-                                    <div class="col-5 align-self-end">
-                                        <img src="<?=base_url('assets/backend');?>/images/profile-img.png" alt="" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
-                            <div class="card-body pt-0"> 
-                                <div class="auth-logo">
-                                    <a href="javascript:void(0);" class="auth-logo-light">
-                                        <div class="avatar-md profile-user-wid mb-4">
-                                            <span class="avatar-title rounded-circle bg-light">
-                                                <img src="<?=base_url('assets/backend');?>/images/logo-light.svg" alt="" class="rounded-circle" height="34">
-                                            </span>
-                                        </div>
-                                    </a>
-
-                                    <a href="javascript:void(0);" class="auth-logo-dark">
-                                        <div class="avatar-md profile-user-wid mb-4">
-                                            <span class="avatar-title rounded-circle bg-light">
-                                                <img src="<?=base_url().SITE_LOGO;?>" alt="" class="rounded-circle" height="34">
-                                            </span>
-                                        </div>
-                                    </a>
-                                </div>
+                            <div class="card-body pt-0">
                                 <div class="p-2">
                                     <?=notification_message();?>
                                     <?=form_open('admin-login',['method'=>'POST','class'=>'form-horizontal']); ?>

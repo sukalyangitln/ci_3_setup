@@ -21,7 +21,8 @@
                         $this->load->view('Admin/inc/page_section');
                         ?>
                         <!-- end page title -->
-                        <div class="row">
+                        <?php if(AUTH_USER_TYPE == 'ADMIN'): ?>
+                            <div class="row">
                             <div class="col-md-3">
                                 <div class="card mini-stats-wid border border-primary " style="box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); cursor: pointer;" onclick="view_stores()">
                                     <div class="card-body">
@@ -127,6 +128,7 @@
                             </div>
                         </div>
                         <!-- end row -->
+                        <?php endif; ?>
                     </div>
                 </div>
                 <?php 
@@ -138,39 +140,42 @@
         $this->load->view('Admin/inc/script');
         ?>
         <script src="<?=base_url('assets/backend');?>/js/app.js"></script>
-        <script>
-            function live_counts() {
-                $.ajax({
-                    type: 'get',
-                    url: BASE_URL+'admin/dashboard-live-counts',
-                    dataType: 'json',
-                    success: function(result){
-                        $('#Total_Store').text(result.Total_Store);
-                        $('#Total_Product').text(result.Total_Product);
-                        $('#Total_Approved_Requests').text(result.Total_Approved_Requests);
-                        $('#Total_Pending_Requests').text(result.Total_Pending_Requests);
-                        $('#Total_Rejected_Requests').text(result.Total_Rejected_Requests);
-                    }
-                });
-                setTimeout(live_counts, 2000); // 2000 milliseconds = 2 seconds
-            }
-            // Start the timeout function
-            live_counts();
-            function view_stores(){
-                window.location.href=BASE_URL+'admin/stores';
-            }
-            function view_product_master(){
-                window.location.href=BASE_URL+'admin/product/list';
-            }
-            function view_approved_asset_requests(){
-                window.location.href=BASE_URL+'admin/asset-requests/approved';
-            }
-            function view_pending_asset_requests(){
-                window.location.href=BASE_URL+'admin/asset-requests/processing';
-            }
-            function view_rejected_asset_requests(){
-                window.location.href=BASE_URL+'admin/asset-requests/rejected';
-            }
-        </script>
+        <?php if(AUTH_USER_TYPE == 'ADMIN'): ?>
+            <script>
+                function live_counts() {
+                    $.ajax({
+                        type: 'get',
+                        url: BASE_URL+'admin/dashboard-live-counts',
+                        dataType: 'json',
+                        success: function(result){
+                            $('#Total_Store').text(result.Total_Store);
+                            $('#Total_Product').text(result.Total_Product);
+                            $('#Total_Approved_Requests').text(result.Total_Approved_Requests);
+                            $('#Total_Pending_Requests').text(result.Total_Pending_Requests);
+                            $('#Total_Rejected_Requests').text(result.Total_Rejected_Requests);
+                        }
+                    });
+                    setTimeout(live_counts, 2000); // 2000 milliseconds = 2 seconds
+                }
+                // Start the timeout function
+                live_counts();
+                function view_stores(){
+                    window.location.href=BASE_URL+'admin/stores';
+                }
+                function view_product_master(){
+                    window.location.href=BASE_URL+'admin/product/list';
+                }
+                function view_approved_asset_requests(){
+                    window.location.href=BASE_URL+'admin/asset-requests/approved';
+                }
+                function view_pending_asset_requests(){
+                    window.location.href=BASE_URL+'admin/asset-requests/processing';
+                }
+                function view_rejected_asset_requests(){
+                    window.location.href=BASE_URL+'admin/asset-requests/rejected';
+                }
+            </script>
+        <?php endif; ?>
+        
     </body>
 </html>

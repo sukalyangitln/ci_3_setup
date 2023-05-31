@@ -21,6 +21,7 @@ class Asset_movement_timeline extends DB_Model
         $this->db->select('*');
         $this->db->from('asset_movement_timeline');
         $this->db->where($condition);
+        $this->db->order_by('amt_id','DESC');
         $query = $this->db->get();
         $result = $query->result();
         return $result;
@@ -47,7 +48,7 @@ class Asset_movement_timeline extends DB_Model
         if ($store_ids[0] != 'ALL_STORE'):
             $this->db->where_in('amt_FK_Store_id', $store_ids);
         endif;
-
+        $this->db->order_by('amt_id','DESC');
         $query = $this->db->get();
         $result = $query->result();
         return $result;
